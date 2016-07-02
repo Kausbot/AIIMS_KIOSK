@@ -9,4 +9,74 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="ps1.bits_pilani.goa.aiims_kiosk.MedicalServices">
 
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/gridLayout2"></GridLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ambulatory_care_opd"
+        android:id="@+id/button9"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/gridLayout2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/out_reach_family_care"
+        android:id="@+id/button10"
+        android:layout_below="@+id/button9"
+        android:layout_toEndOf="@+id/gridLayout2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/long_term_chronic_care"
+        android:id="@+id/button11"
+        android:layout_below="@+id/button10"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/acute_care"
+        android:id="@+id/button12"
+        android:layout_below="@+id/button11"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/long_term_acute_care"
+        android:id="@+id/button13"
+        android:layout_below="@+id/button12"
+        android:layout_toEndOf="@+id/gridLayout2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/surgical_operations"
+        android:id="@+id/button14"
+        android:layout_below="@+id/button13"
+        android:layout_toEndOf="@+id/gridLayout2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/icu"
+        android:id="@+id/button15"
+        android:layout_below="@+id/button14"
+        android:layout_toEndOf="@+id/gridLayout2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/obstetric_care"
+        android:id="@+id/button16"
+        android:layout_below="@+id/button15"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>

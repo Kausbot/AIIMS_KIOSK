@@ -14,4 +14,12 @@
     ....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro
     ....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro
     ....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro</string>
+    <string name="ambulatory_care_opd">Ambulatory Care - OPD</string>
+    <string name="out_reach_family_care">Out-Reach/Family care</string>
+    <string name="long_term_chronic_care">Long Term Chronic Care</string>
+    <string name="acute_care">Acute Care</string>
+    <string name="long_term_acute_care">Long TErm Acute Care</string>
+    <string name="surgical_operations">Surgical Operations</string>
+    <string name="icu">ICU</string>
+    <string name="obstetric_care">Obstetric Care</string>
 </resources>
