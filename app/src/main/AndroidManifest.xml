@@ -19,7 +19,10 @@
         <activity
             android:name=".AboutAIIMS"
             android:label="About AIIMS" />
-        <activity android:name=".MedicalServices"></activity>
+        <activity android:name=".MedicalServices"
+            android:label = "Medical Services at AIIMS">
+
+        </activity>
     </application>
 
 </manifest>
