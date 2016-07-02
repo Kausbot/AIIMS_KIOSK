@@ -16,7 +16,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainMenu" />
-        <activity android:name=".AboutAIIMS"></activity>
+        <activity
+            android:name=".AboutAIIMS"
+            android:label="About AIIMS" />
+        <activity android:name=".MedicalServices"></activity>
     </application>
 
 </manifest>
