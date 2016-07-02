@@ -14,7 +14,9 @@
     tools:context="ps1.bits_pilani.goa.aiims_kiosk.MainMenu">
 <ScrollView
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:id="@+id/scrollView">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -26,8 +28,9 @@
             android:text="@string/homeScr_intro_Hello"
             android:id="@+id/main_introHello"
             android:layout_marginBottom="20dp"
-
-            android:layout_gravity="center_horizontal" />
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="false"
+            android:layout_alignWithParentIfMissing="false" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -41,5 +44,13 @@
 
     </RelativeLayout>
 </ScrollView>
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Tiles_selection"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="" />
 
 </RelativeLayout>
