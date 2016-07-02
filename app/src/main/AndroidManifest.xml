@@ -29,7 +29,8 @@
         <activity android:name=".Malaria01" />
         <activity android:name=".Malaria02" />
         <activity android:name=".Malaria03" />
-        <activity android:name=".Malaria04"></activity>
+        <activity android:name=".Malaria04" />
+        <activity android:name=".Malaria05"></activity>
     </application>
 
 </manifest>
