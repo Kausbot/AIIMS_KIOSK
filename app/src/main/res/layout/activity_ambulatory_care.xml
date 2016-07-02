@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical" android:id="@+id/ScrollView">
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,4 +13,193 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="ps1.bits_pilani.goa.aiims_kiosk.AmbulatoryCare">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView5"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src = "@drawable/aiimslogo"
+        android:alpha="0.3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/facility_available"
+        android:id="@+id/textView9"
+        android:textColor="#0e2f44"
+        android:maxLines= "500"
+        android:scrollbars = "vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="All types of walk-in walk-out patients with seasonal, chronic &amp; \n metabolic illnesses, malignancy, minor trauma, gynaecology, ENT problems, psychiatry and skin diseases in adults &amp; children are attended to with available faculty, JRs &amp; SRs. OPD attendance is constantly increasing. 40 OPD suits are available. "
+        android:id="@+id/textView10"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000"
+        android:maxLines= "500"
+        android:scrollbars = "vertical"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/general_guidelines_for_opd"
+        android:id="@+id/textView15"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentStart="true"
+        android:maxLines= "500"
+        android:scrollbars = "vertical"
+        android:textColor="#0e2f44" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/all_clinics_function_between_9_am_and_1_pm_registration_for_new_patients_is_between_8_30_am_and_11_30_am"
+        android:id="@+id/t1"
+        android:layout_below="@+id/textView15"
+        android:layout_alignParentStart="true"
+        android:maxLines= "500"
+        android:scrollbars = "vertical"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/new_opd_card_costing_rs_10_and_shall_be_valid_for_10_days_it_can_be_recharged_every_10_days_the_follow_up_visits_within_up_to_10_days_is_free"
+        android:id="@+id/textView17"
+        android:maxLines= "500"
+        android:scrollbars = "vertical"
+        android:textColor="#000000"
+        android:layout_below="@+id/t1"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="->You have right to consult any doctor/ consultant. For seeking appointment with any consultant on his OPD days, you may contact his/her office"
+        android:id="@+id/textView18"
+        android:layout_below="@+id/textView17"
+        android:layout_alignParentStart="true"
+        android:maxLines= "500"
+        android:scrollbars = "vertical"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/you_have_right_to_consult_any_doctor_consultant_for_seeking_appointment_with_any_consultant_on_his_opd_days_you_may_contact_his_her_office"
+        android:id="@+id/textView19"
+        android:layout_below="@+id/textView18"
+        android:layout_alignParentStart="true"
+        android:maxLines= "500"
+        android:scrollbars = "vertical"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="more..."
+        android:id="@+id/button18"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/button18"></GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/patients_are_seen_on_first_come_first_serve_basis_however_out_of_turn_consultation_may_be_provided_in_case_of_emergency_or_to_senior_citizens"
+        android:id="@+id/textView16"
+        android:layout_below="@+id/textView19"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/for_consultation_in_specialty_and_super_specialty_clinics_you_need_to_have_referred_from_general_opd_of_aiims_bhopal_or_any_government_institution"
+        android:id="@+id/textView20"
+        android:layout_below="@+id/textView16"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="->Investigations: After OPD consultation, the treating doctor will fill up the requisition forms for various investigations &amp; direct/guide you to the concerned lab /dept."
+        android:id="@+id/textView21"
+        android:layout_below="@+id/textView20"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/sample_collection_timings_are_8_00_am_to_1_30_am"
+        android:id="@+id/textView22"
+        android:layout_below="@+id/textView21"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/certain_specialized_investigations_are_done_on_particular_days_only"
+        android:id="@+id/textView23"
+        android:layout_below="@+id/textView22"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/the_report_normally_reaches_the_concerned_opd_on_the_next_opd_day"
+        android:id="@+id/textView24"
+        android:layout_below="@+id/textView23"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/certain_investigations_are_done_free_of_charge_while_others_are_charged_as_per_the_prevailing_norms_fixed_by_government_patients_should_deposit_the_money_only_at_the_designated_hospital_cash_counters_and_obtain_the_proper_receipt"
+        android:id="@+id/textView25"
+        android:layout_below="@+id/textView24"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/only_usg_facilities_are_available_on_upper_ground_floor_at_present_the_expansion_of_services_are_underway_and_shall_be_started_shortly"
+        android:id="@+id/textView26"
+        android:layout_below="@+id/textView25"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000" />
+
 </RelativeLayout>
+    </ScrollView>

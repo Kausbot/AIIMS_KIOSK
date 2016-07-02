@@ -22,4 +22,16 @@
     <string name="surgical_operations">Surgical Operations</string>
     <string name="icu">ICU</string>
     <string name="obstetric_care">Obstetric Care</string>
+    <string name="facility_available">FACILITY AVAILABLE</string>
+    <string name="general_guidelines_for_opd">GENERAL GUIDELINES FOR OPD</string>
+    <string name="new_opd_card_costing_rs_10_and_shall_be_valid_for_10_days_it_can_be_recharged_every_10_days_the_follow_up_visits_within_up_to_10_days_is_free"><![CDATA[->New OPD Card costing Rs. 10/- and shall be valid for 10 days. It can be recharged every 10 days. The follow up visits within up to 10 days is free]]></string>
+    <string name="all_clinics_function_between_9_am_and_1_pm_registration_for_new_patients_is_between_8_30_am_and_11_30_am"><![CDATA[-> All Clinics function between 9 am and 1 pm. Registration for new patients is between 8:30 am and 11:30 am]]></string>
+    <string name="patients_are_seen_on_first_come_first_serve_basis_however_out_of_turn_consultation_may_be_provided_in_case_of_emergency_or_to_senior_citizens"><![CDATA[->Patients are seen on first come first serve basis. However, out of turn consultation may be provided in case of emergency or to senior citizens.]]></string>
+    <string name="you_have_right_to_consult_any_doctor_consultant_for_seeking_appointment_with_any_consultant_on_his_opd_days_you_may_contact_his_her_office"><![CDATA[->You have right to consult any doctor/ consultant. For seeking appointment with any consultant on his OPD days, you may contact his/her office]]></string>
+    <string name="for_consultation_in_specialty_and_super_specialty_clinics_you_need_to_have_referred_from_general_opd_of_aiims_bhopal_or_any_government_institution"><![CDATA[->For consultation in Specialty and Super-specialty clinics, you need to have referred from general OPD of AIIMS Bhopal or any Government Institution]]></string>
+    <string name="sample_collection_timings_are_8_00_am_to_1_30_am"><![CDATA[->Sample Collection Timings are:- 8:00 AM to 1:30 AM]]></string>
+    <string name="only_usg_facilities_are_available_on_upper_ground_floor_at_present_the_expansion_of_services_are_underway_and_shall_be_started_shortly"><![CDATA[->Only USG facilities are available on upper ground floor at present. The expansion of services are underway and shall be started shortly.]]></string>
+    <string name="certain_investigations_are_done_free_of_charge_while_others_are_charged_as_per_the_prevailing_norms_fixed_by_government_patients_should_deposit_the_money_only_at_the_designated_hospital_cash_counters_and_obtain_the_proper_receipt"><![CDATA[->Certain investigations are done free of charge while others are charged as per the prevailing norms fixed by Government. Patients should Deposit the money only at the designated hospital Cash Counters and obtain the proper receipt]]></string>
+    <string name="the_report_normally_reaches_the_concerned_opd_on_the_next_opd_day"><![CDATA[->The report normally reaches the concerned OPD on the next OPD day]]></string>
+    <string name="certain_specialized_investigations_are_done_on_particular_days_only"><![CDATA[->Certain specialized investigations are done on particular days only]]></string>
 </resources>
