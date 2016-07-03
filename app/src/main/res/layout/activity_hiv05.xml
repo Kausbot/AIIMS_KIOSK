@@ -7,33 +7,32 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ps1.bits_pilani.goa.aiims_kiosk.Typhoid05">
+    tools:context="ps1.bits_pilani.goa.aiims_kiosk.HIV05">
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView12"
-        android:src="@drawable/typhoid05"
-        android:layout_marginBottom="171dp"
-        android:layout_alignParentBottom="true"
+        android:id="@+id/imageView17"
+        android:src="@drawable/hiv05"
+        android:layout_above="@+id/textView36"
         android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Remember a helpful mantra. As designed by the Centers for Disease Control and Prevention, learn the phrase: &quot;Boil it, cook it, peel it, or forget it.&quot; If ever you have doubts about whether to eat something, think of this mantra. Remember it&apos;s always better to be safe than sorry!"
-        android:id="@+id/textView31"
-        android:layout_marginBottom="77dp"
+        android:text=" Always, always, always use protection. Only engage in unprotected sex if you are in a mutually monogamous relationship in which both you and your partner are uninfected by HIV or any other STD. This is the most important part of preventing HIV. Protected sex will go the furthest to protect you and your partner if one of you is at risk or has contracted an HIV infection. Of course, it&apos;s easy to say &quot;just this one time&quot; to skipping protection but all it takes is one time"
+        android:id="@+id/textView36"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
+        android:layout_marginBottom="40dp"
         android:textColor="#000000" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="previous"
-        android:id="@+id/button36"
+        android:id="@+id/button51"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true" />
 
@@ -41,15 +40,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="home"
-        android:id="@+id/button37"
-        android:layout_alignParentBottom="true"
+        android:id="@+id/button52"
+        android:layout_alignBottom="@+id/button51"
         android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="next"
-        android:id="@+id/button38"
-        android:layout_alignParentBottom="true"
+        android:id="@+id/button53"
+        android:layout_alignBottom="@+id/button52"
         android:layout_alignParentEnd="true" />
 </RelativeLayout>

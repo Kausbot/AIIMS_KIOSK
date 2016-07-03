@@ -7,14 +7,14 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ps1.bits_pilani.goa.aiims_kiosk.Typhoid05">
+    tools:context="ps1.bits_pilani.goa.aiims_kiosk.HIV04">
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView12"
-        android:src="@drawable/typhoid05"
-        android:layout_marginBottom="171dp"
+        android:id="@+id/imageView16"
+        android:src="@drawable/hiv04"
+        android:layout_marginBottom="185dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true" />
 
@@ -22,9 +22,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Remember a helpful mantra. As designed by the Centers for Disease Control and Prevention, learn the phrase: &quot;Boil it, cook it, peel it, or forget it.&quot; If ever you have doubts about whether to eat something, think of this mantra. Remember it&apos;s always better to be safe than sorry!"
-        android:id="@+id/textView31"
-        android:layout_marginBottom="77dp"
+        android:text="Never share needles or syringes. Needles and syringes can easily carry HIV from one person to another. Never use recreational drugs which use needles and never use any needles not given to you by your doctor. If you have problems with addiction to these drugs, get help for addiction and find out if your area has a needle exchange program to help keep you and others safe."
+        android:id="@+id/textView35"
+        android:layout_marginBottom="71dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:textColor="#000000" />
@@ -33,7 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="previous"
-        android:id="@+id/button36"
+        android:id="@+id/button48"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true" />
 
@@ -41,15 +41,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="home"
-        android:id="@+id/button37"
-        android:layout_alignParentBottom="true"
+        android:id="@+id/button49"
+        android:layout_alignBottom="@+id/button48"
         android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="next"
-        android:id="@+id/button38"
-        android:layout_alignParentBottom="true"
+        android:id="@+id/button50"
+        android:layout_alignBottom="@+id/button49"
         android:layout_alignParentEnd="true" />
 </RelativeLayout>

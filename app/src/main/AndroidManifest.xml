@@ -36,7 +36,13 @@
         <activity android:name=".Typhoid02" />
         <activity android:name=".Typhoid03" />
         <activity android:name=".Typhoid04" />
-        <activity android:name=".Typhoid05"></activity>
+        <activity android:name=".Typhoid05" />
+        <activity android:name=".HIV01" />
+        <activity android:name=".HIV02" />
+        <activity android:name=".HIV03" />
+        <activity android:name=".HIV04" />
+        <activity android:name=".HIV05" />
+        <activity android:name=".HIV06"></activity>
     </application>
 
 </manifest>

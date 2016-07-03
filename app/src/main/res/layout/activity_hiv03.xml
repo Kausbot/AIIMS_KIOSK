@@ -7,14 +7,14 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ps1.bits_pilani.goa.aiims_kiosk.Typhoid05">
+    tools:context="ps1.bits_pilani.goa.aiims_kiosk.HIV03">
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView12"
-        android:src="@drawable/typhoid05"
-        android:layout_marginBottom="171dp"
+        android:id="@+id/imageView15"
+        android:src="@drawable/hiv03"
+        android:layout_marginBottom="192dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true" />
 
@@ -22,9 +22,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Remember a helpful mantra. As designed by the Centers for Disease Control and Prevention, learn the phrase: &quot;Boil it, cook it, peel it, or forget it.&quot; If ever you have doubts about whether to eat something, think of this mantra. Remember it&apos;s always better to be safe than sorry!"
-        android:id="@+id/textView31"
-        android:layout_marginBottom="77dp"
+        android:text="Treat any other STDs or STIs you may get. Already having STDs and STIs puts you at a higher risk for getting HIV. The infections weaken your immune system and make you more susceptible to contracting HIV when you are exposed. This is why you should treat these problems, as well as normal health problems like yeast infections, immediately if you suspect you may have them. You can also get vaccinated against certain STD/Is like Hep A and B, if you are at high risk."
+        android:id="@+id/textView34"
+        android:layout_marginBottom="48dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:textColor="#000000" />
@@ -33,7 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="previous"
-        android:id="@+id/button36"
+        android:id="@+id/button45"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true" />
 
@@ -41,7 +41,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="home"
-        android:id="@+id/button37"
+        android:id="@+id/button46"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 
@@ -49,7 +49,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="next"
-        android:id="@+id/button38"
-        android:layout_alignParentBottom="true"
+        android:id="@+id/button47"
+        android:layout_alignBottom="@+id/button46"
         android:layout_alignParentEnd="true" />
 </RelativeLayout>
