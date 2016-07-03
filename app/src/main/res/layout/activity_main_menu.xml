@@ -51,6 +51,6 @@
         android:id="@+id/Tiles_selection"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_alignBottom="" />
+        android:layout_alignBottom= />
 
 </RelativeLayout>

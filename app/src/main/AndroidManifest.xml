@@ -33,7 +33,9 @@
         <activity android:name=".Malaria05" />
         <activity android:name=".Malaria06" />
         <activity android:name=".Typhoid01" />
-        <activity android:name=".Typhoid02"></activity>
+        <activity android:name=".Typhoid02" />
+        <activity android:name=".Typhoid03" />
+        <activity android:name=".Typhoid04"></activity>
     </application>
 
 </manifest>
