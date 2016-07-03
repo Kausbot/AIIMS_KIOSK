@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ps1.bits_pilani.goa.aiims_kiosk.Typhoid01">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView8"
+        android:src="@drawable/typhoid01"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/textView27" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Typhoid fever, also known simply as typhoid, is a bacterial infection due to Salmonella typhi that causes symptoms which may vary from mild to severe and usually begin six to thirty days after exposure.Often there is a gradual onset of a high fever over several days.Weakness, abdominal pain, constipation, and headaches also commonly occur.Diarrhea is uncommon and vomiting is not usually severe.Some people develop a skin rash with rose colored spots.In severe cases there may be confusion.Without treatment symptoms may last weeks or months.Other people may carry the bacterium without being affected; however, they are still able to spread the disease to others."
+        android:id="@+id/textView27"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="41dp"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="previous"
+        android:id="@+id/button24"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="home"
+        android:id="@+id/button25"
+        android:layout_alignTop="@+id/button24"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="next"
+        android:id="@+id/button26"
+        android:layout_alignTop="@+id/button25"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
