@@ -37,4 +37,23 @@
     <string name="certain_investigations_are_done_free_of_charge_while_others_are_charged_as_per_the_prevailing_norms_fixed_by_government_patients_should_deposit_the_money_only_at_the_designated_hospital_cash_counters_and_obtain_the_proper_receipt"><![CDATA[->Certain investigations are done free of charge while others are charged as per the prevailing norms fixed by Government. Patients should Deposit the money only at the designated hospital Cash Counters and obtain the proper receipt]]></string>
     <string name="the_report_normally_reaches_the_concerned_opd_on_the_next_opd_day"><![CDATA[->The report normally reaches the concerned OPD on the next OPD day]]></string>
     <string name="certain_specialized_investigations_are_done_on_particular_days_only"><![CDATA[->Certain specialized investigations are done on particular days only]]></string>
+    <string name="more">more...</string>
+    <string name="facility_availabale">FACILITY AVAILABALE</string>
+    <string name="the_department_of_cfm_is_providing_outreach_family_care_and_triage_clinic_at_aiims_bhopal_hospital_and_at_phc_ratibadh_amp_chiklod_more_than_2000_families_have_been_attended_to_by_cfm_faculty_medical_officers_medical_students_and_social_workers_these_families_are_on_the_radar_of_cfm_department"><![CDATA[The department of CFM is providing outreach / family care and triage clinic at AIIMS Bhopal hospital and at PHC Ratibadh & Chiklod. More than 2000 families have been attended to by CFM faculty, medical officers, medical students and social workers. These families are on the radar of CFM department.]]></string>
+    <string name="services_offered">SERVICES OFFERED</string>
+    <string name="routine_basic_care"><![CDATA[->Routine basic care.]]></string>
+    <string name="basic_laboratory_services"><![CDATA[->Basic laboratory services]]></string>
+    <string name="to_support_state_govt_in_implementation_of_nhps_amp_other_schemes"><![CDATA[->To Support state Govt. In implementation of NHPs. & other schemes]]></string>
+    <string name="collaborative_research_to_generate_evidence_to_suit_local_situation"><![CDATA[->Collaborative Research to generate Evidence to suit local situation.]]></string>
+    <string name="referral_services"><![CDATA[->Referral services]]></string>
+    <string name="teaching_amp_training_to_ugs_pgs_amp_paramdics"><![CDATA[Teaching & Training to UGs, PGs & Paramdics]]></string>
+    <string name="uhtc_urban_health_training_centre_katzu_hospital_jawahar_chowk_near_rangmahal_theatre_bhopal_80_100_patients_day_rhtc_rural_health_training_centre_chiklod_bhopal_30_50_patients_day">UHTC – Urban Health Training Centre Katzu Hospital, Jawahar Chowk, Near Rangmahal Theatre, Bhopal 80-100 patients /day RHTC – Rural Health Training Centre Chiklod , Bhopal 30-50 patients/day</string>
+    <string name="facility_availability">FACILITY AVAILABILITY</string>
+    <string name="acute_care_of_haemodynamically_stable_gi_infections_vascular_accidents_chest_pain_breathlessness_have_regularly_been_attended_to_acute_care_is_mostly_given_to_endogenous_population_number_of_acute_patients_with_life_threatening_illnesses_attended_in_the_past_6_months_by_aiims_bhopal_faculty_is_over_100">Acute care of haemodynamically stable GI infections, vascular accidents, chest pain, breathlessness have regularly been attended to. Acute care is mostly given to endogenous population. Number of acute patients with life threatening illnesses attended in the past 6 months by AIIMS Bhopal faculty is over 100</string>
+    <string name="surgical_operations_under_local_regional_anaesthesia_biopsies_limited_excisional_surgery_carpel_tunnel_syndrome_nsv_no_scalpel_vasectomy_centre_opened_total_no_of_surgical_operations_performed_in_the_last_1_year_gen_surg_195_speciality_surg_110_gyne_52">Surgical operations under local/regional anaesthesia – biopsies, limited excisional surgery, carpel – tunnel syndrome, NSV – no scalpel vasectomy centre opened. Total no of surgical operations performed in the last 1 year : Gen Surg – 195, Speciality Surg: 110, Gyne :52</string>
+    <string name="pahology_amp_lab_medicine"><![CDATA[PAHOLOGY & LAB MEDICINE]]></string>
+    <string name="clinical_bio_chemistry">Clinical Bio chemistry</string>
+    <string name="pathology_amp_lab_medicine"><![CDATA[PATHOLOGY & LAB MEDICINE]]></string>
+    <string name="general_medicine">GENERAL MEDICINE</string>
+    <string name="ent_amp_pediactrics"><![CDATA[ENT & Pediactrics]]></string>
 </resources>

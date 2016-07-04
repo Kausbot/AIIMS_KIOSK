@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ps1.bits_pilani.goa.aiims_kiosk.SurgicalOperations">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="FACILITY AVAILABILITY"
+        android:id="@+id/textView49"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#0408f9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/surgical_operations_under_local_regional_anaesthesia_biopsies_limited_excisional_surgery_carpel_tunnel_syndrome_nsv_no_scalpel_vasectomy_centre_opened_total_no_of_surgical_operations_performed_in_the_last_1_year_gen_surg_195_speciality_surg_110_gyne_52"
+        android:id="@+id/textView50"
+        android:layout_below="@+id/textView49"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000" />
+</RelativeLayout>
