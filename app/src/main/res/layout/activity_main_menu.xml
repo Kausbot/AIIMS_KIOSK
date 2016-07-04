@@ -63,7 +63,6 @@
             android:layout_height="wrap_content"
             android:id="@+id/ambulatoryCare"
             android:src="@drawable/ambulatoryCare"
-            android:layout_below="@+id/main_introMain"
             android:layout_toRightOf="@+id/diseasesAndPrevention">
             </ImageView>
 
