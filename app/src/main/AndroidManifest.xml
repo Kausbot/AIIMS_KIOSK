@@ -36,7 +36,8 @@
         <activity android:name=".Typhoid02" />
         <activity android:name=".Typhoid03" />
         <activity android:name=".Typhoid04" />
-        <activity android:name=".Typhoid05"></activity>
+        <activity android:name=".Typhoid05" />
+        <activity android:name=".docContacts"></activity>
     </application>
 
 </manifest>
