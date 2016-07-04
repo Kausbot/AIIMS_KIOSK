@@ -14,6 +14,9 @@
     ....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro
     ....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro
     ....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro</string>
+    <string name="docContacts"> The list below summarizes all the detials of the doctors who provide services at AIIMS,Bhopal.
+    Please refer, and post any complaints if any name is missing on the list. Thank you!</string>
+
     <string name="ambulatory_care_opd">Ambulatory Care - OPD</string>
     <string name="out_reach_family_care">Out-Reach/Family care</string>
     <string name="long_term_chronic_care">Long Term Chronic Care</string>

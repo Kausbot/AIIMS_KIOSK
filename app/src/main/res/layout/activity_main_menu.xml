@@ -51,17 +51,16 @@
 
             <ImageView
 
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@drawable/diseasesAndPrevention2"
-            android:id="@+id/diseasesAndPrevention"
-            android:layout_alignParentStart="true" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/diseasesAndPrevention"
+            android:id="@+id/diseasesAndPrevention" />
 
 
 
         <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:id="@+id/ambulatoryCare"
             android:src="@drawable/ambulatoryCare"
             android:layout_below="@+id/main_introMain"

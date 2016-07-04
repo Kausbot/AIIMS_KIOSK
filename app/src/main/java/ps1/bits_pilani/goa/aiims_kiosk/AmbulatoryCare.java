@@ -11,7 +11,7 @@ public class AmbulatoryCare extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        TextView textview= (TextView) findViewById(R.id.your_textview_id);
+        TextView textview= (TextView) findViewById(R.id.textView5);
 
         /* Hey Soums.. add the textViewid up there.. */
         textview.setMovementMethod(new ScrollingMovementMethod());
