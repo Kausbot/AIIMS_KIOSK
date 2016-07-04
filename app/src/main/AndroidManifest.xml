@@ -39,7 +39,12 @@
         <activity android:name=".Typhoid05" />
         <activity android:name=".docContacts" />
         <activity android:name=".Cold04" />
-        <activity android:name=".Cold05"></activity>
+        <activity android:name=".Cold05" />
+        <activity android:name=".Anemia01" />
+        <activity android:name=".Anemia02" />
+        <activity android:name=".anemia03" />
+        <activity android:name=".Anemia04" />
+        <activity android:name=".Anemia06"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ps1.bits_pilani.goa.aiims_kiosk.Anemia06">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView29"
+        android:src="@drawable/anemia06"
+        android:layout_marginBottom="224dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text=" Consume foods containing vitamin B12. Consume whole foods that contain Vitamin B12, which is found naturally in animal and soy products. Making sure you get enough Vitamin B12 may not only help you prevent anemia, but can also help your body absorb iron more efficiently. Consider incorporating some or all of the following foods into your diet:[21] Fish: try salmon, trout, and tuna Shellfish: try clams and oysters Eggs Dairy products: try cheese and yogurt Fortified cereals Soy products: try soy milk, edamame, and tofu"
+        android:id="@+id/textView47"
+        android:layout_marginBottom="51dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="previous"
+        android:id="@+id/button84"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="home"
+        android:id="@+id/button85"
+        android:layout_alignBottom="@+id/button84"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="next"
+        android:id="@+id/button86"
+        android:layout_alignBottom="@+id/button85"
+        android:layout_alignEnd="@+id/textView47" />
+</RelativeLayout>
