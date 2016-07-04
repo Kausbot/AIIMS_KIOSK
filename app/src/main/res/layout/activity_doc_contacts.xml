@@ -8,19 +8,52 @@
     android:paddingRight="0dp"
     android:paddingTop="0dp"
     tools:context="ps1.bits_pilani.goa.aiims_kiosk.docContacts">
-
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/imageView12">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/docContacts"
-        android:id="@+id/textView31"
+        android:id="@+id/docContacts_intro"
         android:layout_marginTop="35dp"
-        android:layout_marginLeft="25dp"
-        android:layout_below="@+id/imageView12"
+        android:layout_marginLeft="15dp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginBottom="10dp"
         android:layout_alignParentStart="true"
         android:layout_centerHorizontal="true" />
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/opdsched_1"
+        android:id="@+id/opdsched_1"
+        android:layout_below="@+id/docContacts_intro"
+        android:contentDescription="opd schedule"
+        android:layout_alignParentLeft="false"
+        android:layout_alignWithParentIfMissing="false"
+        android:adjustViewBounds="true" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/opdsched_2"
+            android:src="@drawable/opdsched_2"
+            android:layout_below="@+id/opdsched_1"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/opdsched_3"
+            android:src="@drawable/opdsched_3"
+            android:layout_below="@+id/opdsched_2"/>
+    </RelativeLayout>
+</ScrollView>
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -30,13 +63,4 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true" />
 
-    <ListView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:id="@+id/doctorContacts"
-
-        android:layout_below="@+id/textView31"
-        android:layout_centerHorizontal="true"
-        android:layout_alignWithParentIfMissing="false"
-        tools:listitem="@android:layout/simple_list_item_1" />
 </RelativeLayout>
