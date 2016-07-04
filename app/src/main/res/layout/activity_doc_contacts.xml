@@ -16,17 +16,27 @@
         android:text="@string/docContacts"
         android:id="@+id/textView31"
         android:layout_marginTop="35dp"
-        android:layout_marginLeft="16dp"
+        android:layout_marginLeft="25dp"
         android:layout_below="@+id/imageView12"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true" />
 
     <ImageView
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/imageView12"
         android:scaleType="fitXY"
-
         android:src="@drawable/doctors_3"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/doctorContacts"
+
+        android:layout_below="@+id/textView31"
+        android:layout_centerHorizontal="true"
+        android:layout_alignWithParentIfMissing="false"
+        tools:listitem="@android:layout/simple_list_item_1" />
 </RelativeLayout>
