@@ -44,7 +44,8 @@
         <activity android:name=".Anemia02" />
         <activity android:name=".anemia03" />
         <activity android:name=".Anemia04" />
-        <activity android:name=".Anemia06"></activity>
+        <activity android:name=".Anemia06" />
+        <activity android:name=".DiseasePreventionHome"></activity>
     </application>
 
 </manifest>
