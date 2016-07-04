@@ -5,12 +5,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class Anemia02 extends AppCompatActivity {
+public class Anemia05 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_anemia02);
+        setContentView(R.layout.activity_anemia05);
     }
 
     public void anemia01(View view) {

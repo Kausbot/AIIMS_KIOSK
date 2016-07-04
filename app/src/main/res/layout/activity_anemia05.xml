@@ -7,23 +7,24 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ps1.bits_pilani.goa.aiims_kiosk.Anemia04">
+    tools:context="ps1.bits_pilani.goa.aiims_kiosk.Anemia05">
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView28"
-        android:src="@drawable/anemia04"
-        android:layout_above="@+id/textView46"
+        android:id="@+id/imageView31"
+        android:src="@drawable/anemia05"
+        android:layout_marginBottom="209dp"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Ingest iron supplements. To ensure that you&apos;re getting sufficient iron, consider taking over the counter iron supplements. You can take this as a single supplement or part of a multivitamin, which may lessen your risk for developing anemia.[9] You need anywhere from 8-18 mg of iron per day to keep your iron at normal levels. Consider taking slightly more if you are anemic or concerned about developing it.[10] Women require more (up to 15-18 mg), because of menstruation. Pregnant women need at least 27 mg and lactating women 9-10 mg. "
-        android:id="@+id/textView46"
-        android:layout_marginBottom="36dp"
+        android:text="Check your medications. Certain medications can make people more prone to developing anemia. If you&apos;re on medications that may put you at risk, ask your doctor whether there&apos;s an alternative medication that will do the job without causing you to become anemic. The following medications may lead to anemia:[28] Cephalosporins Dapsone Levodopa Levofloxacin Methyldopa Nitrofurantoin Nonsteroidal anti-inflammatory drugs (NSAIDs), especially if used frequently Penicillin and its derivatives Phenazopyridine (pyridium) Quinidine[29]"
+        android:id="@+id/textView51"
+        android:layout_marginBottom="35dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:textColor="#000000" />
@@ -32,17 +33,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="previous"
-        android:id="@+id/button81"
+        android:id="@+id/button92"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:onClick="anemia03"/>
+        android:onClick="anemia04"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="home "
-        android:id="@+id/button82"
-        android:layout_alignTop="@+id/button81"
+        android:text="home"
+        android:id="@+id/button93"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:onClick="diseaseHome"/>
 
@@ -50,8 +51,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="next"
-        android:id="@+id/button83"
-        android:layout_alignTop="@+id/button82"
+        android:id="@+id/button94"
+        android:layout_alignTop="@+id/button93"
         android:layout_alignParentEnd="true"
-        android:onClick="anemia05"/>
+        android:onClick="anemia06"/>
 </RelativeLayout>
