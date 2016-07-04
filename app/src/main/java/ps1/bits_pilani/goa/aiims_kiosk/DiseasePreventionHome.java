@@ -12,10 +12,13 @@ public class DiseasePreventionHome extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_disease_prevention_home);
 
-    public void anemia(View view) {
-        Intent i1 = new Intent(this, Anemia01.class);
 
-        startActivity(i1);
+
+}
+    public void anemia(View view) {
+    Intent i1 = new Intent(this, Anemia01.class);
+
+    startActivity(i1);
 
     }
 
@@ -43,4 +46,10 @@ public class DiseasePreventionHome extends AppCompatActivity {
 
     }
 
+    public void mainmenu(View view)
+    {
+        Intent i6 = new Intent(this,MainMenu.class);
+        startActivity(i6);
+
+    }
 }

@@ -35,7 +35,8 @@
         android:text="previous"
         android:id="@+id/button78"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:onClick="anemia02"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -43,7 +44,8 @@
         android:text="home"
         android:id="@+id/button79"
         android:layout_alignTop="@+id/button78"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="home"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -51,5 +53,6 @@
         android:text="next"
         android:id="@+id/button80"
         android:layout_alignTop="@+id/button79"
-        android:layout_alignEnd="@+id/textView45" />
+        android:layout_alignEnd="@+id/textView45"
+        android:onClick="anemia03"/>
 </RelativeLayout>
