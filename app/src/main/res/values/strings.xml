@@ -5,18 +5,69 @@
     <string name="medical_services">Medical Services</string>
     <string name="medical_technology">Medical Technology</string>
 
+
+
+
+
+
+
+
+
+
+
     <!-- resources by Anmol -->
     <!-- Yo bitcheZ! -->
     <!-- Hell yeah.. -->
     <!-- OK I'm done.. to the resources -->
     <string name="homeScr_intro_Hello">Hello!</string>
     <string name="homeScr_intro_main">Welcome to All India Institute of Medical Sciences(A.I.I.M.S.), Bhopal! AIIMS is a superspeciality,
-     tetriary medical care center. This informatics app here, is meant to spread awareness about AIIMS, it's functions and various aspects
+     tetriary medical care center. This informatics app here, is meant to spread awareness about AIIMS, it\'s functions and various aspects
     of medical Care.</string>
-    <string name="homeScr_intro_main_pt2">If at any time you feel stuck, please tap on the '?' button displayed on the top right corner of the screen. Please select one of the
+    <string name="homeScr_intro_main_pt2">If at any time you feel stuck, please tap on the \'?\' button displayed on the top right corner of the screen. Please select one of the
     icons below to get started!</string>
     <string name="docContacts"> The list below summarizes all the detials of the doctors who provide services at AIIMS,Bhopal.
     Please refer, and post any complaints if any name is missing on the list. Thank you!</string>
+    
+    <!-- Schemes -->
+    <string name="govt_schemes">The Govt. of India spends crores on rupees on health and family welfare planning. This investment is
+    also done in the form of various schemes and policies. </string>
+
+    <string name="govt_schemes_2">"Being aware about these shemes can help you save money in different medical treatments, and will also put the Govt. money to good use. Below are some of the health and family welfare schemes launched by the Govt. of India. Please go through them and find out if you are applicable for any. Think! You could reduce your medical bill by a big margin!</string>
+    <string name="IGMSY">Indira Gandhi Matritva Sahyog Yojana</string>
+    <string name="ICDS">Integrated Child Development Services</string>
+    <string name="JSY">Janani Suraksha Yojana</string>
+    <string name="MDM">Midday Meal Scheme</string>
+    <string name="PMSBY">Pradhan Mantri Suraksha Bima Yojana</string>
+    <string name="PMJJBY">Pradhan Mantri Jeevan Jyoti Bima Yojana</string>
+    <string name="PMJDY">Pradhan Mantri Jan Dhan Yojana</string>
+    <string name="RNTCP">Revised National Tuberculosis Control Program</string>
+    <string name="NFSM">National Food Security Mission</string>
+    <string name="Fin">Financial Inclusion</string>
+    <string name="Food">Food</string>
+    <string name="Insurance">Insurance</string>
+    <string name="mc">Maternal Care</string>
+    <string name="cd">Child Development</string>
+    <string name="Health">Health</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <string name="ambulatory_care_opd">Ambulatory Care - OPD</string>
     <string name="out_reach_family_care">Out-Reach/Family care</string>

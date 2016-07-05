@@ -81,7 +81,8 @@
                 android:adjustViewBounds="true"
                 android:layout_gravity="left"
                 android:layout_weight="1"
-                android:layout_marginRight="1dp"/>
+                android:layout_marginRight="1dp"
+                android:onClick="medicalServices"/>
 
             <!-- Image-2  -->
             <ImageView
@@ -91,7 +92,8 @@
             android:src="@drawable/aboutus"
             android:layout_toRightOf="@+id/diseasesAndPrevention"
             android:adjustViewBounds="true"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:onClick="aboutUs">
             </ImageView>
             </TableRow>
 
@@ -116,7 +118,8 @@
                     android:adjustViewBounds="true"
                     android:layout_gravity="left"
                     android:layout_weight="1"
-                    android:layout_marginRight="1dp"/>
+                    android:layout_marginRight="1dp"
+                    android:onClick="docContacts"/>
 
                 <!-- Image-2  -->
                 <ImageView
@@ -126,7 +129,8 @@
                     android:src="@drawable/ambulatorycare"
                     android:layout_toRightOf="@+id/diseasesAndPrevention"
                     android:adjustViewBounds="true"
-                    android:layout_weight="1">
+                    android:layout_weight="1"
+                    android:onClick="ambulatoryCare">
                 </ImageView>
             </TableRow>
 
@@ -152,7 +156,8 @@
                     android:adjustViewBounds="true"
                     android:layout_gravity="left"
                     android:layout_weight="1"
-                    android:layout_marginRight="1dp"/>
+                    android:layout_marginRight="1dp"
+                    android:onClick="diseasesandPrevention"/>
 
                 <!-- Image-2  -->
                 <ImageView
@@ -162,7 +167,8 @@
                     android:src="@drawable/maps"
                     android:layout_toRightOf="@+id/diseasesAndPrevention"
                     android:adjustViewBounds="true"
-                    android:layout_weight="1">
+                    android:layout_weight="1"
+                    android:onClick="maps">
                 </ImageView>
             </TableRow>
 
