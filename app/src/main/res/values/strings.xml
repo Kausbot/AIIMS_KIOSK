@@ -10,10 +10,11 @@
     <!-- Hell yeah.. -->
     <!-- OK I'm done.. to the resources -->
     <string name="homeScr_intro_Hello">Hello!</string>
-    <string name="homeScr_intro_main">Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro
-    ....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro
-    ....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro
-    ....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro....Intro</string>
+    <string name="homeScr_intro_main">Welcome to All India Institute of Medical Sciences(A.I.I.M.S.), Bhopal! AIIMS is a superspeciality,
+     tetriary medical care center. This informatics app here, is meant to spread awareness about AIIMS, it's functions and various aspects
+    of medical Care.</string>
+    <string name="homeScr_intro_main_pt2">If at any time you feel stuck, please tap on the '?' button displayed on the top right corner of the screen. Please select one of the
+    icons below to get started!</string>
     <string name="docContacts"> The list below summarizes all the detials of the doctors who provide services at AIIMS,Bhopal.
     Please refer, and post any complaints if any name is missing on the list. Thank you!</string>
 
