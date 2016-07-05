@@ -61,7 +61,8 @@
             android:id="@+id/imageGrid"
             android:layout_below="@+id/main_introMain_pt2"
             android:layout_centerHorizontal="true"
-            android:stretchColumns="2">
+            android:stretchColumns="2"
+            android:background="#000000">
 
         <!-- Row-1 -->
             <TableRow
@@ -69,14 +70,14 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginBottom="4dp">
+                android:layout_marginBottom="1dp">
 
             <!--Image-1  -->
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/aboutus"
-                android:id="@+id/aboutus"
+                android:src="@drawable/medicalservices"
+                android:id="@+id/medicalservices"
                 android:adjustViewBounds="true"
                 android:layout_gravity="left"
                 android:layout_weight="1"
@@ -86,20 +87,60 @@
             <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/ambulatoryCare"
-            android:src="@drawable/ambulatorycare"
+            android:id="@+id/aboutus"
+            android:src="@drawable/aboutus"
             android:layout_toRightOf="@+id/diseasesAndPrevention"
             android:adjustViewBounds="true"
             android:layout_weight="1">
             </ImageView>
             </TableRow>
 
-            <!-- Row-1 -->
+
+
+
+
+            <!-- Row-2 -->
             <TableRow
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:layout_marginBottom="4dp"
+                android:layout_marginBottom="1dp"
+                android:layout_gravity="center_horizontal">
+
+                <!--Image-1  -->
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/doccontacts"
+                    android:id="@+id/doccontacts"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:layout_marginRight="1dp"/>
+
+                <!-- Image-2  -->
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ambulatorycare"
+                    android:src="@drawable/ambulatorycare"
+                    android:layout_toRightOf="@+id/diseasesAndPrevention"
+                    android:adjustViewBounds="true"
+                    android:layout_weight="1">
+                </ImageView>
+            </TableRow>
+
+
+
+
+
+
+            <!-- Row-3 -->
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="1dp"
                 android:layout_gravity="center_horizontal">
 
                 <!--Image-1  -->
@@ -117,22 +158,26 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/ambulatoryCare"
-                    android:src="@drawable/ambulatorycare"
+                    android:id="@+id/maps"
+                    android:src="@drawable/maps"
                     android:layout_toRightOf="@+id/diseasesAndPrevention"
                     android:adjustViewBounds="true"
                     android:layout_weight="1">
                 </ImageView>
             </TableRow>
-            <!-- Row-1 -->
+
+
+<!-- To be added
+
+            <!- Row-4 ->
             <TableRow
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:layout_marginBottom="4dp"
+                android:layout_marginBottom="1dp"
                 android:layout_gravity="center_horizontal">
 
-                <!--Image-1  -->
+                <!-Image-1  ->
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -143,7 +188,7 @@
                     android:layout_weight="1"
                     android:layout_marginRight="1dp"/>
 
-                <!-- Image-2  -->
+                <!- Image-2  ->
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -154,38 +199,7 @@
                     android:layout_weight="1">
                 </ImageView>
             </TableRow>
-
-            <!-- Row-1 -->
-            <TableRow
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:layout_marginBottom="4dp"
-                android:layout_gravity="center_horizontal">
-
-                <!--Image-1  -->
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/diseasesandprevention"
-                    android:id="@+id/diseasesAndPrevention"
-                    android:adjustViewBounds="true"
-                    android:layout_gravity="left"
-                    android:layout_weight="1"
-                    android:layout_marginRight="1dp"/>
-
-                <!-- Image-2  -->
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/ambulatoryCare"
-                    android:src="@drawable/ambulatorycare"
-                    android:layout_toRightOf="@+id/diseasesAndPrevention"
-                    android:adjustViewBounds="true"
-                    android:layout_weight="1">
-                </ImageView>
-            </TableRow>
-
+                                -->
 
 
         </TableLayout>
