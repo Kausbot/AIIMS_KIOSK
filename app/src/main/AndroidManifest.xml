@@ -37,7 +37,9 @@
         <activity android:name=".Typhoid03" />
         <activity android:name=".Typhoid04" />
         <activity android:name=".Typhoid05" />
-        <activity android:name=".docContacts" />
+        <activity
+            android:name=".docContacts"
+            android:theme="@style/Theme_lol" />
         <activity android:name=".Cold04" />
         <activity android:name=".Cold05" />
         <activity android:name=".Anemia01" />
@@ -46,7 +48,8 @@
         <activity android:name=".Anemia04" />
         <activity android:name=".Anemia06" />
         <activity android:name=".DiseasePreventionHome" />
-        <activity android:name=".Anemia05"></activity>
+        <activity android:name=".Anemia05" />
+        <activity android:name=".Schemes"></activity>
     </application>
 
 </manifest>
