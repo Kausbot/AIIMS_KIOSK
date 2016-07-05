@@ -1,5 +1,6 @@
 package ps1.bits_pilani.goa.aiims_kiosk;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
@@ -17,17 +18,47 @@ public class MainMenu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
 
-        DisplayMetrics metrics = new DisplayMetrics();
-        getWindowManager().getDefaultDisplay().getMetrics(metrics);
 
-        int height1 = metrics.heightPixels;
-        int width1 = metrics.widthPixels;
+    }
 
+    public void diseasesandPrevention(View view) {
+        Intent dap = new Intent(this, DiseasePreventionHome.class);
 
-        ImageView iv = (ImageView) findViewById(R.id.diseasesAndPrevention);
-        int width = 10;
-        int height = 10;
-        RelativeLayout.LayoutParams parms = new RelativeLayout.LayoutParams(width, height);
-        iv.setLayoutParams(parms);
+        startActivity(dap);
+
+    }
+
+    public void medicalServices(View view) {
+        Intent ms = new Intent(this, MedicalServices.class);
+
+        startActivity(ms);
+
+    }
+
+    public void aboutUs(View view) {
+        Intent au = new Intent(this, AboutUs.class);
+
+        startActivity(au);
+
+    }
+
+    public void docContacts(View view) {
+        Intent dC = new Intent(this, docContacts.class);
+
+        startActivity(dC);
+
+    }
+
+    public void ambulatoryCare(View view) {
+        Intent aC = new Intent(this, AmbulatoryCare.class);
+
+        startActivity(aC);
+    }
+
+    public void maps(View view) {
+        Intent maps = new Intent(this, Maps.class);
+
+        startActivity(maps);
+/** Intents of other tiles are to be added **/
     }
 }
