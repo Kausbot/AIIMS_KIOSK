@@ -81,7 +81,7 @@
     <Button
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:text="Family medicine and obgy"
+        android:text="pediatrics &amp; obgy"
         android:id="@+id/button37"
         android:background="@drawable/rounded_button"
         android:layout_alignTop="@+id/button36"
