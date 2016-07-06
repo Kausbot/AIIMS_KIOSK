@@ -6,15 +6,6 @@
     <string name="medical_technology">Medical Technology</string>
 
 
-
-
-
-
-
-
-
-
-
     <!-- resources by Anmol -->
     <!-- Yo bitcheZ! -->
     <!-- Hell yeah.. -->
@@ -27,7 +18,7 @@
     icons below to get started!</string>
     <string name="docContacts"> The list below summarizes all the detials of the doctors who provide services at AIIMS,Bhopal.
     Please refer, and post any complaints if any name is missing on the list. Thank you!</string>
-    
+
     <!-- Schemes -->
     <string name="govt_schemes">The Govt. of India spends crores on rupees on health and family welfare planning. This investment is
     also done in the form of various schemes and policies. </string>
@@ -48,25 +39,6 @@
     <string name="mc">Maternal Care</string>
     <string name="cd">Child Development</string>
     <string name="Health">Health</string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     <string name="ambulatory_care_opd">Ambulatory Care - OPD</string>
