@@ -3,26 +3,24 @@ package ps1.bits_pilani.goa.aiims_kiosk;
 import android.app.Activity;
 
 
-        import android.app.ActionBar;
-        import android.app.Activity;
-        import android.os.Bundle;
-        import android.view.KeyEvent;
-        import android.widget.EditText;
-        import android.widget.TextView;
-        import android.widget.TextView.OnEditorActionListener;
-        import android.widget.Toast;
+import android.app.ActionBar;
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.KeyEvent;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.TextView.OnEditorActionListener;
+import android.widget.Toast;
 
-public class actnBar extends Activity {
+public class actnBar2 extends Activity {
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_doc_contacts
-        );
+
+    protected void actnBr(View view) {
 
         ActionBar actionBar = getActionBar();
         // add the custom view to the action bar
-        actionBar.setCustomView(R.layout.activity_actnbar);
+        actionBar.setCustomView(R.layout.activity_actn_bar2);
         EditText search = (EditText) actionBar.getCustomView().findViewById(
                 R.id.searchfield);
         search.setOnEditorActionListener(new OnEditorActionListener() {
@@ -30,7 +28,7 @@ public class actnBar extends Activity {
             @Override
             public boolean onEditorAction(TextView v, int actionId,
                                           KeyEvent event) {
-                Toast.makeText(actnBar.this, "Search triggered",
+                Toast.makeText(actnBar2.this, "Search triggered",
                         Toast.LENGTH_LONG).show();
                 return false;
             }

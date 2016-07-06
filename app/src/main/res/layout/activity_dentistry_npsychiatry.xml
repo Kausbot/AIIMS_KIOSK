@@ -36,5 +36,5 @@
         android:layout_alignBottom="@+id/imageView54"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="58dp"
-        android:src = "@drawable/dentNpsych"/>
+        android:src = "@drawable/dentnpsych"/>
 </RelativeLayout>

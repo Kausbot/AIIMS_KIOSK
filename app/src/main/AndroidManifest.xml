@@ -50,29 +50,40 @@
         <activity android:name=".DiseasePreventionHome" />
         <activity android:name=".Anemia05" />
         <activity android:name=".Schemes" />
-        <activity android:name=".DentistryNPsychiatry"
-            android:label = "Dentistry And Psychiatry"></activity>
-        <activity android:name = ".ENT"
-            android:label = "ENT"></activity>
-        <activity android:name = ".PathologyAndLabMedicine"
-            android:label = "Pathology And Lab Medicine"></activity>
-        <activity android:name = ".ClinicalBioChem"
-            android:label = "Clinical Bio Chemistry"></activity>
-        <activity android:name = ".Microbiology"
-            android:label = "Microbiology"></activity>
-        <activity android:name = ".GeneralMedicine"
-            android:label = "General Medicine"></activity>
-        <activity android:name = ".NeurologynFamilyMedicine"
-            android:label = "Neurology And Family Medicine"></activity>
-        <activity android:name = ".RadiologynPulmonary"
-            android:label = "Radiology And Family Medicine"></activity>
-        <activity android:name = ".PediatricsNOBGY"
-            android:label = "Pediatrics And OBGY"></activity>
-        <activity android:name = ".MedicalTechnology"
-            android:label = "Medical Technology at AIIMS"></activity>
-        <activity android:name = ".OPDschedule"
-            android:label = "OPD Schedule"></activity>
-
+        <activity
+            android:name=".DentistryNPsychiatry"
+            android:label="Dentistry And Psychiatry" />
+        <activity
+            android:name=".ENT"
+            android:label="ENT" />
+        <activity
+            android:name=".PathologyAndLabMedicine"
+            android:label="Pathology And Lab Medicine" />
+        <activity
+            android:name=".ClinicalBioChem"
+            android:label="Clinical Bio Chemistry" />
+        <activity
+            android:name=".Microbiology"
+            android:label="Microbiology" />
+        <activity
+            android:name=".GeneralMedicine"
+            android:label="General Medicine" />
+        <activity
+            android:name=".NeurologynFamilyMedicine"
+            android:label="Neurology And Family Medicine" />
+        <activity
+            android:name=".RadiologynPulmonary"
+            android:label="Radiology And Family Medicine" />
+        <activity
+            android:name=".PediatricsNOBGY"
+            android:label="Pediatrics And OBGY" />
+        <activity
+            android:name=".MedicalTechnology"
+            android:label="Medical Technology at AIIMS" />
+        <activity
+            android:name=".OPDschedule"
+            android:label="OPD Schedule" />
+        <activity android:name=".actnBar2"></activity>
     </application>
 
 </manifest>
