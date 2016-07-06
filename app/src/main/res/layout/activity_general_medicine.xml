@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView37"
-        android:src="@drawable/GeneralMedicine02"
+        android:src="@drawable/generalmedicine02"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_marginBottom="298dp" />
@@ -24,5 +24,5 @@
         android:id="@+id/imageView38"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:src = "@drawable/GeneralMedicine3"/>
+        android:src = "@drawable/generalmedicine3"/>
 </RelativeLayout>

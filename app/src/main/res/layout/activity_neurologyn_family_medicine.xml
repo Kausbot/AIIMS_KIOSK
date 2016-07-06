@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView42"
-        android:src = "@drawable/familyMedicine"
+        android:src = "@drawable/familymedicine"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         android:layout_marginStart="139dp" />

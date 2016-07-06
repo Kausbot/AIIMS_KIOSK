@@ -25,7 +25,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="138dp"
-        android:src= "@drawable/pathologynlabmdicinelabmdicine"/>
+        android:src= "@drawable/pathologynlabmdicine"/>
 
 
 </RelativeLayout>

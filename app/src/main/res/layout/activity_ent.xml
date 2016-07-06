@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView39"
-        android:src= "@drawable/ENT1"
+        android:src= "@drawable/ent1"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="231dp" />
@@ -25,5 +25,5 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="136dp"
-        android:src = "@drawable/ENT2"/>
+        android:src = "@drawable/ent2"/>
 </RelativeLayout>
