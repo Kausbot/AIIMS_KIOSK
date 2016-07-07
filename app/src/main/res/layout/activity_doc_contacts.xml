@@ -46,7 +46,8 @@
             android:layout_height="match_parent"
             android:id="@+id/opdsched_2"
             android:src="@drawable/opdsched_2"
-            android:layout_below="@+id/opdsched_1"/>
+            android:cropToPadding="false"
+            android:layout_below="@+id/opdsched_1" />
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
