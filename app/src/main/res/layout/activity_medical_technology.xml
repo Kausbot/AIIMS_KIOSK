@@ -7,93 +7,191 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ps1.bits_pilani.goa.aiims_kiosk.MedicalTechnology">
+    tools:context="ps1.bits_pilani.goa.aiims_kiosk.MedicalTechnology"
+    android:background= "@drawable/dna">
 
     <Button
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:text="@string/pathology_amp_lab_medicine"
-        android:id="@+id/button30"
+
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+
+        android:background="@drawable/nice_button"
+
+
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:shadowRadius="1"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowColor="@android:color/white"
+        android:text="@string/pathology_amplab_medicine"
+        android:id="@+id/button57"
+        android:layout_marginTop="47dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:background="@drawable/malaria04"
-        android:textColor="#000000" />
+        android:layout_alignParentEnd="true" />
 
     <Button
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:text="@string/clinical_bio_chemistry"
-        android:id="@+id/button31"
-        android:background="@drawable/malaria02"
-        android:layout_alignParentTop="true"
-        android:layout_toStartOf="@+id/button38"
-        android:textColor="#000000" />
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_margin="3dp"
+        android:gravity="center"
 
-    <Button
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:text="MICROBIOLOGY"
-        android:id="@+id/button32"
-        android:background="@drawable/malaria04"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:textColor="#000000" />
+        android:background="@drawable/nice_button"
 
-    <Button
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:text="ENT"
-        android:id="@+id/button33"
-        android:background="@drawable/malaria05"
-        android:layout_marginTop="57dp"
-        android:layout_below="@+id/button31"
-        android:layout_toStartOf="@+id/button38" />
 
-    <Button
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:text="@string/general_medicine"
-        android:id="@+id/button34"
-        android:background="@drawable/malaria02"
-        android:layout_alignTop="@+id/button33"
-        android:layout_alignParentStart="true"
-        android:textColor="#000000" />
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:shadowRadius="1"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowColor="@android:color/white"
 
-    <Button
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:text="Neurology &amp;Family Medicine"
-        android:id="@+id/button35"
-        android:background="@drawable/malaria02"
-        android:layout_above="@+id/button36"
-        android:layout_alignEnd="@+id/button38" />
-
-    <Button
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:text="Radiology &amp; Pulmonary Medicine"
-        android:id="@+id/button36"
-        android:background="@drawable/malaria02"
-        android:layout_below="@+id/button33"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="53dp" />
-
-    <Button
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:text="pediatrics &amp; obgy"
-        android:id="@+id/button37"
-        android:background="@drawable/malaria02"
-        android:layout_alignTop="@+id/button36"
+        android:text="clinical bio chemistry"
+        android:id="@+id/button86"
+        android:layout_below="@+id/button57"
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:text="dentistry &amp; psychiatry"
-        android:id="@+id/button38"
-        android:background="@drawable/malaria02"
-        android:layout_alignTop="@+id/button37"
-        android:layout_toEndOf="@+id/button37"
-        android:layout_marginStart="30dp" />
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_margin="3dp"
+        android:gravity="center"
+
+        android:background="@drawable/nice_button"
+
+
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:shadowRadius="1"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowColor="@android:color/white"
+
+        android:text="@string/ent"
+        android:id="@+id/button95"
+        android:layout_below="@+id/button86"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_margin="3dp"
+        android:gravity="center"
+
+        android:background="@drawable/nice_button"
+
+
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:shadowRadius="1"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowColor="@android:color/white"
+        android:text="@string/generalmedicine"
+        android:id="@+id/button96"
+        android:layout_below="@+id/button95"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_margin="3dp"
+        android:gravity="center"
+
+        android:background="@drawable/nice_button"
+
+
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:shadowRadius="1"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowColor="@android:color/white"
+        android:text="@string/neurology_amp_family_medicine"
+        android:id="@+id/button97"
+        android:layout_below="@+id/button96"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_margin="3dp"
+        android:gravity="center"
+
+        android:background="@drawable/nice_button"
+
+
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:shadowRadius="1"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowColor="@android:color/white"
+        android:text="@string/radiology_amp_pulmonary_medicine"
+        android:id="@+id/button98"
+        android:layout_below="@+id/button97"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_margin="3dp"
+        android:gravity="center"
+
+        android:background="@drawable/nice_button"
+
+
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:shadowRadius="1"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowColor="@android:color/white"
+        android:text="@string/microbiology3"
+        android:id="@+id/button99"
+        android:layout_below="@+id/button98"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_margin="3dp"
+        android:gravity="center"
+
+        android:background="@drawable/nice_button"
+
+
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:shadowRadius="1"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowColor="@android:color/white"
+        android:text="@string/pedeatrics_amp_obgy"
+        android:id="@+id/button100"
+        android:layout_below="@+id/button99"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_margin="3dp"
+        android:gravity="center"
+
+        android:background="@drawable/nice_button"
+
+
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:shadowRadius="1"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowColor="@android:color/white"
+        android:text="@string/dentistry_amp_psychiatry"
+        android:id="@+id/button101"
+        android:layout_below="@+id/button100"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
