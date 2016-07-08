@@ -3,7 +3,8 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="Red">#EF3F23</color>
+    <color name="Red">#d80505</color>
     <color name="Redder">#740001</color>
     <color name="accent">#F96161</color>
+    <color name="main_text">#05003c</color>
 </resources>

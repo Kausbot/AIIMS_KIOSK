@@ -19,9 +19,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainMenu"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
-           <!-- android:theme="@style/ThemeOverlay.AppCompat.Dark" -->
+        <activity
+            android:name=".MainMenu"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <!-- android:theme="@style/ThemeOverlay.AppCompat.Dark" -->
         <activity
             android:name=".AboutAIIMS"
             android:label="About AIIMS" />
@@ -29,9 +30,12 @@
             android:name=".MedicalServices"
             android:label="Medical Services at AIIMS" />
         <activity android:name=".Malaria01" />
+        <activity android:name=".AboutUs" />
         <activity android:name=".Malaria02" />
         <activity android:name=".Malaria03" />
         <activity android:name=".Malaria04" />
+        <activity android:name=".AmbulatoryCare" />
+        <activity android:name=".Maps" />
         <activity android:name=".Malaria05" />
         <activity android:name=".Malaria06" />
         <activity android:name=".Typhoid01" />
@@ -41,8 +45,8 @@
         <activity android:name=".Typhoid05" />
         <activity
             android:name=".docContacts"
-            android:theme="@style/doc_contacts"
-            android:label="Doctor Contacts"/>
+            android:label="Doctor Contacts"
+            android:theme="@style/doc_contacts" />
         <activity android:name=".Cold04" />
         <activity android:name=".Cold05" />
         <activity android:name=".Anemia01" />
@@ -86,7 +90,15 @@
         <activity
             android:name=".OPDschedule"
             android:label="OPD Schedule" />
-        <activity android:name=".actnBar2"></activity>
+        <activity android:name=".actnBar2" />
+        <activity android:name=".Govt_Schemes.IGMSY" />
+        <activity android:name=".Govt_Schemes.MMS" />
+        <activity android:name=".Govt_Schemes.ICDS" />
+        <activity android:name=".Govt_Schemes.JSY" />
+        <activity android:name=".Govt_Schemes.PMJDY" />
+        <activity android:name=".Govt_Schemes.PMJJBY" />
+        <activity android:name=".Govt_Schemes.NFSM" />
+        <activity android:name=".Govt_Schemes.PMSBY"></activity>
     </application>
 
 </manifest>

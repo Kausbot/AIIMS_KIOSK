@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ps1.bits_pilani.goa.aiims_kiosk.Govt_Schemes.IGMSY">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/IGMSY"
+        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/IGMSY_title"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/momandchild"
+        android:src="@drawable/momandchild"
+        android:adjustViewBounds="true"
+        android:layout_below="@+id/IGMSY_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Key Features"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:id="@+id/keyfeatures"
+        android:layout_below="@+id/momandchild"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="31dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Scheme for pregnant and lactating mothers and The total cash benefit amount is 4000/- (paid in 3 installments) "
+        android:id="@+id/textView54"
+        android:layout_below="@+id/keyfeatures"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Eligibility Criteria"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:id="@+id/textView55"
+        android:layout_below="@+id/textView54"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Any woman is entitled to receive the benefit of the Woman must fulfill 4 criteria:
+
+    1.Pregnant women
+    2.Not less than 19 years old
+    3.This is her first or second live birth
+    4.She or her husband does not work in Government / Public Sector Undertaking (Central and State)
+
+Anganwadi workers and anganwadi Helpers may also avail the benefit under the Scheme if they are not receiving paid maternity benefits from the Government and fulfill the above-mentioned 4 criteria "
+        android:id="@+id/textView56"
+        android:layout_below="@+id/textView55"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="How to Apply?"
+
+        android:id="@+id/textView57"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView56"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="1. Register at the Anganwadi Center as soon as she gets to know about her pregnancy
+    2.Sign an undertaking, which the Anganwadi worker would maintain separately for each beneficiary. This undertaking says that the information given by the beneficiary is true and in case of wrongful claim, the amount paid to her may be recovered. Failing which, she would be liable for prosecution.
+    3.Open a Bank/Post Office account so that cash benefits can be transferred in it
+    4.Ask for services to be provided by AWW and ANM
+    5.Ensure that the services she receives are marked in the Mother child protection Card"
+        android:id="@+id/textView58"
+        android:layout_below="@id/textView57"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:adjustViewBounds="true"
+        android:src="@drawable/mcp"
+        android:id="@+id/mcp"
+        android:layout_below="@+id/textView58" />
+
+
+
+
+
+</RelativeLayout>
