@@ -83,7 +83,8 @@
         <activity
             android:name=".OPDschedule"
             android:label="OPD Schedule" />
-        <activity android:name=".actnBar2"></activity>
+        <activity android:name=".actnBar2" />
+        <activity android:name=".governmentSchemes"></activity>
     </application>
 
 </manifest>
