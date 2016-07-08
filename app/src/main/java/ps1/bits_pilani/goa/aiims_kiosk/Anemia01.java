@@ -14,7 +14,8 @@ public class Anemia01 extends AppCompatActivity {
         setContentView(R.layout.activity_anemia01);
 
 
-}
+    }
+
     public void anemia01(View view) {
         Intent next = new Intent(this, Anemia01.class);
         startActivity(next);
