@@ -4,5 +4,5 @@
     <color name="NiceButtonEndColor">#f1f1f1</color>
     <color name="NiceButtonDisabledStartColor">#bedff6</color>
     <color name="NiceButtonDisabledEndColor">#d8ecf9</color>
-    <color name="NiceButtonBorderColor">##cc0000</color>
+    <color name="NiceButtonBorderColor">#cc0000</color>
 </resources>

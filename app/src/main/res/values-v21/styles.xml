@@ -8,7 +8,7 @@
         <item name="android:navigationBarColor">@color/Red</item>
     </style>
 
-    <style name="Theme_lol" parent="android:Theme.Material">
+    <style name="Theme_lol" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/Red</item>
         <item name="colorPrimaryDark">@color/Redder</item>
         <item name="colorAccent">@color/accent</item>

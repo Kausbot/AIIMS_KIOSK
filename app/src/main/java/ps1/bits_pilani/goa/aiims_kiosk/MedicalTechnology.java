@@ -11,7 +11,8 @@ public class MedicalTechnology extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_medical_technology);
+        String color="#b91da4";
         ActionBar bar = getActionBar();
-        bar.setBackgroundDrawable(new ColorDrawable("#b91da4"));
+        bar.setBackgroundDrawable(new ColorDrawable());
     }
 }
