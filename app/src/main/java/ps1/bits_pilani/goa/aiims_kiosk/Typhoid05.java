@@ -38,10 +38,7 @@ public class Typhoid05 extends AppCompatActivity {
         startActivity(next);
     }
 
-    public void typhoid06(View view) {
-        Intent next = new Intent(this, Typhoid06.class);
-        startActivity(next);
-    }
+
 
     public void diseaseHome(View view)
     {

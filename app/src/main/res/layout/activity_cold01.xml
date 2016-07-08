@@ -35,7 +35,8 @@
         android:text="home"
         android:id="@+id/button58"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="diseaseHome"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -43,5 +44,6 @@
         android:text="next"
         android:id="@+id/button59"
         android:layout_alignTop="@+id/button58"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="cold02"/>
 </RelativeLayout>

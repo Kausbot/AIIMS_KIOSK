@@ -31,18 +31,12 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="previous"
-        android:id="@+id/button24"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="home"
         android:id="@+id/button25"
-        android:layout_alignTop="@+id/button24"
-        android:layout_centerHorizontal="true" />
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="" />
 
     <Button
         android:layout_width="wrap_content"
@@ -50,5 +44,6 @@
         android:text="next"
         android:id="@+id/button26"
         android:layout_alignTop="@+id/button25"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="typhoid02" />
 </RelativeLayout>
