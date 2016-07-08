@@ -19,7 +19,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainMenu" />
+        <activity android:name=".MainMenu"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+           <!-- android:theme="@style/ThemeOverlay.AppCompat.Dark" -->
         <activity
             android:name=".AboutAIIMS"
             android:label="About AIIMS" />
@@ -39,7 +41,7 @@
         <activity android:name=".Typhoid05" />
         <activity
             android:name=".docContacts"
-            android:theme="@style/Theme_lol" />
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name=".Cold04" />
         <activity android:name=".Cold05" />
         <activity android:name=".Anemia01" />

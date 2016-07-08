@@ -15,7 +15,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="Theme_lol" parent="Theme.AppCompat.NoActionBar" >
+    <style name="Theme_lol" parent="Theme.AppCompat.Light.NoActionBar" >
         <item name="colorPrimary">@color/Red</item>
         <item name="colorPrimaryDark">@color/Redder</item>
         <item name="colorAccent">@color/accent</item>

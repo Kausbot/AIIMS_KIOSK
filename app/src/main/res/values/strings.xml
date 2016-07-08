@@ -80,4 +80,17 @@
     <string name="pathology_amp_lab_medicine"><![CDATA[PATHOLOGY & LAB MEDICINE]]></string>
     <string name="general_medicine">GENERAL MEDICINE</string>
     <string name="ent_amp_pediactrics"><![CDATA[ENT & Pediactrics]]></string>
+    <string name="pathology_and_lab_medicine">Pathology and lab medicine</string>
+    <string name="clinical_biochemistry">Clinical bio chemistry</string>
+    <string name="clinicalbiochemistry">clinical bio chemistry</string>
+    <string name="microbiology">microbiology</string>
+    <string name="microbiology2">microbiology</string>
+    <string name="pathology_amplab_medicine"><![CDATA[pathology & lab medicine]]></string>
+    <string name="ent">ent</string>
+    <string name="generalmedicine">general medicine</string>
+    <string name="neurology_amp_family_medicine"><![CDATA[neurology & family medicine]]></string>
+    <string name="radiology_amp_pulmonary_medicine"><![CDATA[radiology & pulmonary medicine]]></string>
+    <string name="microbiology3">microbiology</string>
+    <string name="pedeatrics_amp_obgy"><![CDATA[pedeatrics & obgy]]></string>
+    <string name="dentistry_amp_psychiatry"><![CDATA[dentistry & psychiatry]]></string>
 </resources>
