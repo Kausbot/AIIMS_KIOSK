@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,54 +9,75 @@
     android:paddingRight="0dp"
     android:paddingTop="0dp"
     tools:context="ps1.bits_pilani.goa.aiims_kiosk.docContacts">
-<ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_below="@+id/imageView12">
-    <RelativeLayout
+
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/dc_tool_bar"
+        ></include>
+
+    <!--<android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+    </android.support.v7.widget.Toolbar>
+-->
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginLeft="10dp">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="@string/docContacts"
-        android:id="@+id/docContacts_intro"
-        android:layout_marginTop="35dp"
-        android:layout_marginLeft="5dp"
-        android:fontFamily="sans-serif-condensed"
-        android:layout_marginBottom="10dp"
-        android:layout_alignParentStart="true"
-        android:layout_centerHorizontal="true" />
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/opdsched_1"
-        android:id="@+id/opdsched_1"
-        android:layout_below="@+id/docContacts_intro"
-        android:contentDescription="opd schedule"
-        android:layout_alignParentLeft="false"
-        android:layout_alignWithParentIfMissing="false"
-        android:adjustViewBounds="true"
-        android:layout_marginRight="10dp"/>
-
-        <ImageView
+        android:layout_below="@+id/imageView12">
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/opdsched_2"
-            android:src="@drawable/opdsched_2"
-            android:layout_below="@+id/opdsched_1"/>
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/opdsched_3"
-            android:src="@drawable/opdsched_3"
-            android:layout_below="@+id/opdsched_2"/>
-    </RelativeLayout>
-</ScrollView>
-    <ImageView
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/docContacts"
+                android:id="@+id/docContacts_intro"
+                android:layout_marginTop="70sp"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/opdsched_1"
+                android:id="@+id/opdsched_1"
+                android:layout_below="@+id/docContacts_intro"
+                android:contentDescription="opd schedule"
+                android:layout_alignParentLeft="false"
+                android:layout_alignWithParentIfMissing="false"
+                android:adjustViewBounds="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/opdsched_2"
+                android:src="@drawable/opdsched_2"
+                android:cropToPadding="false"
+                android:layout_below="@+id/opdsched_1"
+                android:layout_marginTop="0dp"
+                android:layout_alignParentStart="false" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/opdsched_3"
+                android:src="@drawable/opdsched_3"
+                android:layout_below="@+id/opdsched_2"/>
+        </RelativeLayout>
+    </ScrollView>
+    <!--<ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/imageView12"
@@ -63,5 +85,5 @@
         android:src="@drawable/doctors_3"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true" />
-
+-->
 </RelativeLayout>

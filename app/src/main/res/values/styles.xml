@@ -6,6 +6,7 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
     </style>
 
     <style name="CustomTheme" parent="ThemeOverlay.AppCompat.Dark">
@@ -15,12 +16,15 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="Theme_lol" parent="Theme.AppCompat.NoActionBar" >
+    <style name="doc_contacts" parent="Theme.AppCompat.Light.NoActionBar" >
         <item name="colorPrimary">@color/Red</item>
         <item name="colorPrimaryDark">@color/Redder</item>
         <item name="colorAccent">@color/accent</item>
-        <item name="android:windowBackground">@color/background_floating_material_dark</item>
+        <item name="android:windowBackground">@color/background_floating_material_light</item>
         <item name="android:colorBackground">@color/background_material_light</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColorPrimary">@color/background_material_light</item>
     </style>
 
 </resources>

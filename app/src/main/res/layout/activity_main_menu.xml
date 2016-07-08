@@ -10,12 +10,15 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingTop="5dp"
     tools:context="ps1.bits_pilani.goa.aiims_kiosk.MainMenu">
-<ScrollView
+
+
+
+    <ScrollView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginTop="20dp"
+    android:layout_marginTop="10dp"
     android:id="@+id/scrollView">
     <RelativeLayout
         android:layout_width="match_parent"
@@ -26,8 +29,9 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/homeScr_intro_Hello"
+            android:textColor="@color/main_text"
             android:id="@+id/main_introHello"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="12dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="false"
             android:layout_alignWithParentIfMissing="false" />
@@ -39,6 +43,7 @@
             android:text="@string/homeScr_intro_main"
             android:fontFamily="sans-serif-condensed"
             android:id="@+id/main_introMain"
+            android:textColor="@color/main_text"
             android:layout_below="@+id/main_introHello"
             android:layout_alignParentStart="true"
             android:layout_marginBottom="10dp"/>
@@ -46,6 +51,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/main_text"
             android:textSize="15dp"
             android:text="@string/homeScr_intro_main_pt2"
             android:fontFamily="sans-serif-condensed"
@@ -62,7 +68,7 @@
             android:layout_below="@+id/main_introMain_pt2"
             android:layout_centerHorizontal="true"
             android:stretchColumns="2"
-            android:background="#000000">
+            android:background="#ffffff">
 
         <!-- Row-1 -->
             <TableRow
@@ -70,7 +76,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginBottom="1dp">
+                android:layout_marginBottom="2dp">
 
             <!--Image-1  -->
             <ImageView
@@ -84,7 +90,19 @@
                 android:layout_marginRight="1dp"
                 android:onClick="medicalServices"/>
 
-            <!-- Image-2  -->
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/aboutus"
+                    android:id="@+id/aboutus"
+                    android:adjustViewBounds="true"
+                    android:layout_toRightOf="@+id/diseasesAndPrevention"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+
+                    android:onClick="aboutUs"/>
+
+               <!-- <!- Image-2  ->
             <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -93,8 +111,8 @@
             android:layout_toRightOf="@+id/diseasesAndPrevention"
             android:adjustViewBounds="true"
             android:layout_weight="1"
-            android:onClick="aboutUs">
-            </ImageView>
+            android:onClick="aboutUs"/>
+-->
             </TableRow>
 
 
@@ -130,8 +148,8 @@
                     android:layout_toRightOf="@+id/diseasesAndPrevention"
                     android:adjustViewBounds="true"
                     android:layout_weight="1"
-                    android:onClick="ambulatoryCare">
-                </ImageView>
+                    android:onClick="ambulatoryCare"/>
+
             </TableRow>
 
 
@@ -168,8 +186,8 @@
                     android:layout_toRightOf="@+id/diseasesAndPrevention"
                     android:adjustViewBounds="true"
                     android:layout_weight="1"
-                    android:onClick="maps">
-                </ImageView>
+                    android:onClick="maps"/>
+
             </TableRow>
 
 

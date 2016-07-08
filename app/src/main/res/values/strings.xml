@@ -41,6 +41,11 @@
     <string name="Health">Health</string>
 
 
+
+    <!-- MAPS -->
+    <string name="Maps_1_intro">AIIMS is situated in the Saket Nagar area of New Bhopal. One can reach the hospital by exiting via a left exit NH-12, and traveling straight for about 2 kms. The map below illustrates AIIMS' location:</string>
+    <string name="location_maps">1. Location:</string>
+
     <string name="ambulatory_care_opd">Ambulatory Care - OPD</string>
     <string name="out_reach_family_care">Out-Reach/Family care</string>
     <string name="long_term_chronic_care">Long Term Chronic Care</string>

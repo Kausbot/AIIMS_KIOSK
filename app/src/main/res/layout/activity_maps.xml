@@ -13,4 +13,43 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="ps1.bits_pilani.goa.aiims_kiosk.MainMenu">
 
-    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/Maps_1_intro"
+        android:id="@+id/maps_1_intro"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="34dp"
+        android:layout_marginLeft="25sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/maps_saketnagar"
+        android:src="@drawable/map"
+        android:layout_below="@id/maps_1_intro"
+        android:adjustViewBounds="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/textView53"
+        android:layout_marginTop="51dp"
+        android:layout_below="@+id/maps_saketnagar"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/location_maps"
+        android:id="@+id/textView52"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
