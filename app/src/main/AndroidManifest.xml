@@ -41,7 +41,8 @@
         <activity android:name=".Typhoid05" />
         <activity
             android:name=".docContacts"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+            android:theme="@style/doc_contacts"
+            android:label="Doctor Contacts"/>
         <activity android:name=".Cold04" />
         <activity android:name=".Cold05" />
         <activity android:name=".Anemia01" />
