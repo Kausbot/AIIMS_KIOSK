@@ -8,12 +8,18 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="ps1.bits_pilani.goa.aiims_kiosk.Govt_Schemes.IGMSY">
-
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/IGMSY"
+        android:textStyle="bold"
         android:fontFamily="sans-serif-condensed"
         android:id="@+id/IGMSY_title"
         android:layout_alignParentTop="true"
@@ -118,7 +124,7 @@ Anganwadi workers and anganwadi Helpers may also avail the benefit under the Sch
         android:layout_below="@+id/textView58" />
 
 
-
-
+        </RelativeLayout>
+    </ScrollView>
 
 </RelativeLayout>
