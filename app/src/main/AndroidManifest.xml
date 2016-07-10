@@ -26,7 +26,8 @@
         <!-- android:theme="@style/ThemeOverlay.AppCompat.Dark" -->
         <activity
             android:name=".AboutAIIMS"
-            android:label="About AIIMS" />
+            android:label="About AIIMS"
+            android:theme="@style/about_aiims"/>
         <activity
             android:name=".MedicalServices"
             android:label="Medical Services at AIIMS" />

@@ -3,7 +3,7 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="Red">#d80505</color>
+    <color name="Red">#ff0214</color>  <!--#d80505-->
     <color name="Redder">#740001</color>
     <color name="accent">#F96161</color>
     <color name="main_text">#05003c</color>
@@ -11,4 +11,6 @@
     <color name="colorPrimaryDark_au">#d7005b</color>
     <color name="colorPrimary_gov">#bade10</color>
     <color name="colorPrimaryDark_gov">#87b811</color>
+    <color name="colorPrimary_aa">#fdd413</color>
+    <color name="colorPrimaryDark_aa">#ffba00</color>
 </resources>
