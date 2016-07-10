@@ -93,7 +93,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/aboutus"
+                    android:src="@drawable/about_aiims"
                     android:id="@+id/aboutus"
                     android:adjustViewBounds="true"
                     android:layout_toRightOf="@+id/diseasesAndPrevention"
@@ -143,9 +143,8 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/ambulatorycare"
-                    android:src="@drawable/ambulatorycare"
-                    android:layout_toRightOf="@+id/diseasesAndPrevention"
+                    android:id="@+id/govt"
+                    android:src="@drawable/govt"
                     android:adjustViewBounds="true"
                     android:layout_weight="1"
                     android:onClick="ambulatoryCare"/>
@@ -156,6 +155,39 @@
 
 
 
+
+            <!-- Row-3 -->
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="1dp"
+                android:layout_gravity="center_horizontal">
+
+                <!--Image-1  -->
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ambulatorycare"
+                    android:id="@+id/diseasesAndPrevention"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:layout_marginRight="1dp"
+                    android:onClick="diseasesandPrevention"/>
+
+                <!-- Image-2  -->
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/maps"
+                    android:src="@drawable/aboutus"
+                    android:layout_toRightOf="@+id/diseasesAndPrevention"
+                    android:adjustViewBounds="true"
+                    android:layout_weight="1"
+                    android:onClick="maps"/>
+
+            </TableRow>
 
             <!-- Row-3 -->
             <TableRow
