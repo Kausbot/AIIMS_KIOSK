@@ -9,4 +9,6 @@
     <color name="main_text">#05003c</color>
     <color name="colorPrimary_au">#ff006c</color>
     <color name="colorPrimaryDark_au">#d7005b</color>
+    <color name="colorPrimary_gov">#bade10</color>
+    <color name="colorPrimaryDark_gov">#87b811</color>
 </resources>

@@ -27,9 +27,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="50sp"
+            android:textColorHint="@color/colorPrimary"
             android:text="@string/homeScr_intro_Hello"
-            android:textColor="@color/main_text"
+            android:textColor="@color/colorPrimary"
             android:id="@+id/main_introHello"
             android:layout_marginBottom="12dp"
             android:layout_alignParentTop="true"
@@ -39,9 +40,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="15dp"
+
             android:text="@string/homeScr_intro_main"
             android:fontFamily="sans-serif-condensed"
+            android:textAppearance="?android:attr/textAppearanceMedium"
             android:id="@+id/main_introMain"
             android:textColor="@color/main_text"
             android:layout_below="@+id/main_introHello"
@@ -52,8 +54,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/main_text"
-            android:textSize="15dp"
+
             android:text="@string/homeScr_intro_main_pt2"
+            android:textAppearance="?android:attr/textAppearanceMedium"
             android:fontFamily="sans-serif-condensed"
             android:id="@+id/main_introMain_pt2"
             android:layout_below="@+id/main_introMain"
@@ -100,7 +103,7 @@
                     android:layout_gravity="left"
                     android:layout_weight="1"
 
-                    android:onClick="aboutUs"/>
+                    android:onClick="aboutAIIMS"/>
 
                <!-- <!- Image-2  ->
             <ImageView
@@ -147,7 +150,7 @@
                     android:src="@drawable/govt"
                     android:adjustViewBounds="true"
                     android:layout_weight="1"
-                    android:onClick="ambulatoryCare"/>
+                    android:onClick="govt"/>
 
             </TableRow>
 
@@ -174,7 +177,7 @@
                     android:layout_gravity="left"
                     android:layout_weight="1"
                     android:layout_marginRight="1dp"
-                    android:onClick="diseasesandPrevention"/>
+                    android:onClick="ambulatoryCare"/>
 
                 <!-- Image-2  -->
                 <ImageView
@@ -185,11 +188,11 @@
                     android:layout_toRightOf="@+id/diseasesAndPrevention"
                     android:adjustViewBounds="true"
                     android:layout_weight="1"
-                    android:onClick="maps"/>
+                    android:onClick="aboutUs"/>
 
             </TableRow>
 
-            <!-- Row-3 -->
+            <!-- Row-4 -->
             <TableRow
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

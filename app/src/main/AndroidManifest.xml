@@ -21,7 +21,8 @@
         </activity>
         <activity
             android:name=".MainMenu"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+            android:label="AIIMS Bhopal"
+            android:theme="@style/Theme.AppCompat.DayNight" />
         <!-- android:theme="@style/ThemeOverlay.AppCompat.Dark" -->
         <activity
             android:name=".AboutAIIMS"
@@ -30,9 +31,10 @@
             android:name=".MedicalServices"
             android:label="Medical Services at AIIMS" />
         <activity android:name=".Malaria01" />
-        <activity android:name=".AboutUs"
+        <activity
+            android:name=".AboutUs"
             android:label="About Us"
-            android:theme="@style/about_us"/>
+            android:theme="@style/about_us" />
         <activity android:name=".Malaria02" />
         <activity android:name=".Malaria03" />
         <activity android:name=".Malaria04" />
@@ -58,7 +60,10 @@
         <activity android:name=".Anemia06" />
         <activity android:name=".DiseasePreventionHome" />
         <activity android:name=".Anemia05" />
-        <activity android:name=".Schemes" />
+        <activity
+            android:name=".Schemes"
+            android:label="Govt. Schemes"
+            android:theme="@style/govt" />
         <activity
             android:name=".DentistryNPsychiatry"
             android:label="Dentistry And Psychiatry" />
@@ -100,7 +105,9 @@
         <activity android:name=".Govt_Schemes.PMJDY" />
         <activity android:name=".Govt_Schemes.PMJJBY" />
         <activity android:name=".Govt_Schemes.NFSM" />
-        <activity android:name=".Govt_Schemes.PMSBY"></activity>
+        <activity android:name=".Govt_Schemes.PMSBY" />
+        <activity android:name=".helpPage"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
     </application>
 
 </manifest>
