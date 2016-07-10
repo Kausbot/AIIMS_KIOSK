@@ -7,4 +7,6 @@
     <color name="Redder">#740001</color>
     <color name="accent">#F96161</color>
     <color name="main_text">#05003c</color>
+    <color name="colorPrimary_au">#ff006c</color>
+    <color name="colorPrimaryDark_au">#d7005b</color>
 </resources>

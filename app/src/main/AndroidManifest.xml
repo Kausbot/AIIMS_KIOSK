@@ -30,7 +30,9 @@
             android:name=".MedicalServices"
             android:label="Medical Services at AIIMS" />
         <activity android:name=".Malaria01" />
-        <activity android:name=".AboutUs" />
+        <activity android:name=".AboutUs"
+            android:label="About Us"
+            android:theme="@style/about_us"/>
         <activity android:name=".Malaria02" />
         <activity android:name=".Malaria03" />
         <activity android:name=".Malaria04" />
