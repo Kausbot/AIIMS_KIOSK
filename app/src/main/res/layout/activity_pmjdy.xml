@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical" android:id="@+id/ScrollView">
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -12,23 +15,135 @@
     android:background="#151515">
 
     <Button
-        android:layout_width="180dp"
+        android:layout_width="165dp"
         android:layout_height="wrap_content"
         android:text="previous scheme"
         android:id="@+id/button23"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         android:background="#eb6003"
-        android:textColor="#ffffff" />
+        android:textColor="#ffffff"
+        android:onClick="pmjd"/>
 
     <Button
-        android:layout_width="180dp"
+        android:layout_width="165dp"
         android:layout_height="wrap_content"
         android:text="next scheme"
         android:id="@+id/button24"
         android:layout_alignParentTop="true"
         android:layout_toEndOf="@+id/button23"
         android:textColor="#ffffff"
-        android:background="#0954be" />
-</RelativeLayout>
+        android:background="#0954be"
+        android:onClick="pmjdyn"/>
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView83"
+        android:src="@drawable/pradhanmantriyojana"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Pradhan Mantri Jan-Dhan Yojana is India&apos;s National Mission for Financial Inclusion to ensure access to financial services, namely Banking Savings &amp; Deposit Accounts, Remittance, Credit, Insurance, Pension in an affordable manner. This financial inclusion campaign was launched by the Prime Minister of India Narendra Modi on 28 August 2014.He had announced this scheme on his first Independence Day speech on 15 August 2014.  Run by Department of Financial Services, Ministry of Finance, on the inauguration day, 1.5 Crore (15 million) bank accounts were opened under this scheme.Guinness World Records Recognises the Achievements made under PMJDY, Guinness World Records Certificate says &quot;The most bank accounts opened in 1 week as a part of financial inclusion campaign is 18,096,130 and was achieved by Banks in India from 23 to 29 August 2014&quot;. By 1 June 2016, over 22 crore (220 million) bank accounts were opened and ₹384.11 billion (US$5.7 billion) were deposited under the scheme."
+        android:id="@+id/textView93"
+        android:layout_below="@+id/imageView83"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Investment"
+        android:id="@+id/textView94"
+        android:layout_below="@+id/textView93"
+        android:layout_alignParentStart="true"
+        android:textColor="#f80606" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Pradhan Mantri Jan - Dhan Yojana "
+        android:id="@+id/textView95"
+        android:layout_below="@+id/textView94"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView84"
+        android:src="@drawable/pminvest"
+        android:layout_below="@+id/textView93"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="KeyFeatures"
+        android:id="@+id/textView96"
+        android:layout_alignBottom="@+id/imageView84"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="33dp"
+        android:textColor="#f00707" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Under the scheme:"
+        android:id="@+id/textView97"
+        android:layout_alignBottom="@+id/imageView84"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="13dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="1. Account holders will be provided zero-balance bank account of ₹30,000 (US$450) (to be given by LIC)."
+        android:id="@+id/textView98"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/textView97"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="2. After Six months of opening of the bank account, holders can avail ₹5,000 (US$74) overdraft from the bank"
+        android:id="@+id/textView99"
+        android:layout_below="@+id/textView98"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="3. With the introduction of new technology introduced by National Payments Corporation of India (NPCI), a person can transfer funds, check balance through a normal phone which was earlier limited only to smart phones so far. "
+        android:id="@+id/textView100"
+        android:layout_below="@+id/textView99"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="4. Mobile banking for the poor would be available through National Unified USSD Platform (NUUP) for which all banks and mobile companies have come together"
+        android:id="@+id/textView101"
+        android:layout_below="@+id/textView100"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>
+</ScrollView>

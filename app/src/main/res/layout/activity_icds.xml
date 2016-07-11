@@ -107,7 +107,8 @@
                 android:layout_alignParentTop="true"
                 android:layout_alignParentStart="true"
                 android:background="#eb6003"
-                android:textColor="#ffffff" />
+                android:textColor="#ffffff"
+                android:onClick="icdsp"/>
 
             <Button
                 android:layout_width="180dp"
@@ -117,7 +118,8 @@
                 android:layout_alignParentTop="true"
                 android:layout_toEndOf="@+id/button3"
                 android:background="#0954be"
-                android:textColor="#ffffff" />
+                android:textColor="#ffffff"
+                android:onClick="icdsn"/>
 
             <ImageView
                 android:layout_width="wrap_content"

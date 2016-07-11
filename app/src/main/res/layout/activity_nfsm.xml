@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical" android:id="@+id/ScrollView">
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,6 +11,69 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ps1.bits_pilani.goa.aiims_kiosk.Govt_Schemes.NFSM">
+    tools:context="ps1.bits_pilani.goa.aiims_kiosk.Govt_Schemes.NFSM"
+    android:background="#151515">
 
+
+    <Button
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button104"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="#eb6003"
+        android:textColor="#ffffff"
+        android:onClick="nfsmp"/>
+
+    <Button
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button105"
+        android:layout_alignTop="@+id/button104"
+        android:layout_toEndOf="@+id/button104"
+        android:background="#0954be"
+        android:textColor="#ffffff"
+        android:onClick="nfsmn"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView79"
+        android:layout_below="@+id/button104"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/nfsm"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="The National Food Security Act, 2013 (also Right to Food Act) is an Act of the Parliament of India which aims to provide subsidized food grains to approximately two thirds of India&apos;s 1.2 billion people.It was signed into law on 12 September 2013, retroactive to 5 July 2013.The National Food Security Act, 2013 (NFSA 2013) converts into legal entitlements for existing food security programmes of the Government of India. It includes the Midday Meal Scheme, Integrated Child Development Services scheme and the Public Distribution System. Further, the NFSA 2013 recognizes maternity entitlements. The Midday Meal Scheme and the Integrated Child Development Services Scheme are universal in nature whereas the PDS will reach about two-thirds of the population (75% in rural areas and 50% in urban areas).  Under the provisions of the bill, beneficiaries of the Public Distribution System (or, PDS) are entitled to 5 kilograms (11 lb) per person per month of cereals at the following prices:  Rice at ₹3 (4.5¢ US) per kg Wheat at ₹2 (3.0¢ US) per kg Coarse grains (millet) at ₹1 (1.5¢ US) per kg. Pregnant women, lactating mothers, and certain categories of children are eligible for daily free cereals.  The bill has been highly controversial. It was introduced into India&apos;s parliament on 22 December 2011, promulgated as a presidential ordinance on 5 July 2013, and enacted into law on 12 September 2013.odisha government implemented food security bill in 14 district from 17 November 2015  Assam government implemented Act on 24 December 2015."
+        android:id="@+id/textView83"
+        android:layout_below="@+id/imageView79"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="35dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Salient Features"
+        android:id="@+id/textView84"
+        android:layout_below="@+id/textView83"
+        android:layout_alignParentStart="true"
+        android:textColor="#fa0808" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="75% of rural population and 50% of the urban population are entitled for three years from enactment to 5 kilograms (11 lb) food grains per month at ₹3 (4.5¢ US), ₹2 (3.0¢ US), ₹1 (1.5¢ US) per kg for rice, wheat and coarse grains (millet), respectively;The eldest woman in the household, 18 years or above,is the head of the household for the issuance of the ration card"
+        android:id="@+id/textView85"
+        android:layout_below="@+id/textView84"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff" />
 </RelativeLayout>
+    </ScrollView>

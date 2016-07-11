@@ -15,7 +15,6 @@ import ps1.bits_pilani.goa.aiims_kiosk.Govt_Schemes.MMS;
 import ps1.bits_pilani.goa.aiims_kiosk.Govt_Schemes.NFSM;
 import ps1.bits_pilani.goa.aiims_kiosk.Govt_Schemes.PMJDY;
 import ps1.bits_pilani.goa.aiims_kiosk.Govt_Schemes.PMJJBY;
-import ps1.bits_pilani.goa.aiims_kiosk.Govt_Schemes.PMSBY;
 
 public class Schemes extends AppCompatActivity {
 

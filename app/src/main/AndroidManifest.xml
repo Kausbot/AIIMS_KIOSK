@@ -98,7 +98,6 @@
         <activity android:name=".Govt_Schemes.PMJDY" />
         <activity android:name=".Govt_Schemes.PMJJBY" />
         <activity android:name=".Govt_Schemes.NFSM" />
-        <activity android:name=".Govt_Schemes.PMSBY" />
         <activity android:name=".pmsjby" />
         <activity android:name=".jananiSuraksha" />
         <activity android:name=".rntcp"></activity>
