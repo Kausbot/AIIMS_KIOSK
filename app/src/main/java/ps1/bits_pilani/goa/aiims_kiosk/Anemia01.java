@@ -1,9 +1,10 @@
 package ps1.bits_pilani.goa.aiims_kiosk;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View; import android.R;
+import android.view.View;
 
 public class Anemia01 extends AppCompatActivity {
 
@@ -12,7 +13,7 @@ public class Anemia01 extends AppCompatActivity {
     {
         super.onCreate(savedInstanceState);
 
-        overridePendingTransition(R.anim.fade_out, R.anim.fade_in);
+
 
         setContentView(R.layout.activity_anemia01);
 
