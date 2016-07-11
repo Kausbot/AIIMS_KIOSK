@@ -15,7 +15,8 @@
         android:text="previous"
         android:id="@+id/button69"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:onClick="cold04" />
 
     <Button
         android:layout_width="wrap_content"
@@ -34,7 +35,7 @@
         android:layout_marginBottom="164dp"
         android:layout_above="@+id/button69"
         android:layout_alignParentStart="true"
-        android:onClick="cold04"/>
+        />
 
     <TextView
         android:layout_width="wrap_content"

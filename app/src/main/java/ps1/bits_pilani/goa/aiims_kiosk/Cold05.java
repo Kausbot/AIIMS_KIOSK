@@ -16,29 +16,29 @@ public class Cold05 extends AppCompatActivity {
 
     public void cold01(View view) {
         Intent next = new Intent(this, Cold01.class);
-        startActivity(next);
+        next.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);startActivity(next);
 
 
     }
 
     public void cold02(View view) {
         Intent next = new Intent(this, Cold02.class);
-        startActivity(next);
+        next.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);startActivity(next);
     }
 
     public void cold03(View view) {
         Intent next = new Intent(this, Cold03.class);
-        startActivity(next);
+        next.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);startActivity(next);
     }
 
     public void cold04(View view) {
         Intent next = new Intent(this, Cold04.class);
-        startActivity(next);
+        next.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);startActivity(next);
     }
 
     public void cold05(View view) {
         Intent next = new Intent(this, Cold05.class);
-        startActivity(next);
+        next.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);startActivity(next);
     }
 
 

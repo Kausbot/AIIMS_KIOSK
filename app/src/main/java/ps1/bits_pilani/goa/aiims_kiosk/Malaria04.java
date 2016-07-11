@@ -13,34 +13,34 @@ public class Malaria04 extends AppCompatActivity {
         setContentView(R.layout.activity_malaria04);
     }public void malaria01(View view) {
         Intent next = new Intent(this, Malaria01.class);
-        startActivity(next);
+        next.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);startActivity(next);
 
 
     }
 
     public void malaria02(View view) {
         Intent next = new Intent(this, Malaria02.class);
-        startActivity(next);
+        next.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);startActivity(next);
     }
 
     public void malaria03(View view) {
         Intent next = new Intent(this, Malaria03.class);
-        startActivity(next);
+        next.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);startActivity(next);
     }
 
     public void malaria04(View view) {
         Intent next = new Intent(this, Malaria04.class);
-        startActivity(next);
+        next.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);startActivity(next);
     }
 
     public void malaria05(View view) {
         Intent next = new Intent(this, Malaria05.class);
-        startActivity(next);
+        next.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);startActivity(next);
     }
 
     public void malaria06(View view) {
         Intent next = new Intent(this, Malaria06.class);
-        startActivity(next);
+        next.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);startActivity(next);
     }
 
     public void diseaseHome(View view)
