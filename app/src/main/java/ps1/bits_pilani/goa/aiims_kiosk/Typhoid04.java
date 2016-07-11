@@ -13,29 +13,29 @@ public class Typhoid04 extends AppCompatActivity {
         setContentView(R.layout.activity_typhoid04);
     }public void typhoid01(View view) {
         Intent next = new Intent(this, Typhoid01.class);
-        startActivity(next);
+        next.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);startActivity(next);
 
 
     }
 
     public void typhoid02(View view) {
         Intent next = new Intent(this, Typhoid02.class);
-        startActivity(next);
+        next.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);startActivity(next);
     }
 
     public void typhoid03(View view) {
         Intent next = new Intent(this, Typhoid03.class);
-        startActivity(next);
+        next.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);startActivity(next);
     }
 
     public void typhoid04(View view) {
         Intent next = new Intent(this, Typhoid04.class);
-        startActivity(next);
+        next.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);startActivity(next);
     }
 
     public void typhoid05(View view) {
         Intent next = new Intent(this, Typhoid05.class);
-        startActivity(next);
+        next.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);startActivity(next);
     }
 
 

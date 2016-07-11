@@ -14,34 +14,34 @@ public class HIV04 extends AppCompatActivity {
     }
     public void hiv01(View view) {
         Intent next = new Intent(this, HIV01.class);
-        startActivity(next);
+        next.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);startActivity(next);
 
 
     }
 
     public void hiv02(View view) {
         Intent next = new Intent(this, HIV02.class);
-        startActivity(next);
+        next.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);startActivity(next);
     }
 
     public void hiv03(View view) {
         Intent next = new Intent(this, HIV03.class);
-        startActivity(next);
+        next.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);startActivity(next);
     }
 
     public void hiv04(View view) {
         Intent next = new Intent(this, HIV04.class);
-        startActivity(next);
+        next.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);startActivity(next);
     }
 
     public void hiv05(View view) {
         Intent next = new Intent(this, HIV05.class);
-        startActivity(next);
+        next.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);startActivity(next);
     }
 
     public void hiv06(View view) {
         Intent next = new Intent(this, HIV06.class);
-        startActivity(next);
+        next.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);startActivity(next);
     }
 
     public void diseaseHome(View view)
