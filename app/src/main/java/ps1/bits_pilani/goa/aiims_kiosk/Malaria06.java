@@ -11,7 +11,9 @@ public class Malaria06 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_malaria06);
-    }public void malaria01(View view) {
+    }
+
+    public void malaria01(View view) {
         Intent next = new Intent(this, Malaria01.class);
         startActivity(next);
 
