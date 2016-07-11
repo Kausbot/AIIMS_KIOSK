@@ -27,13 +27,17 @@
             android:name=".AboutAIIMS"
             android:label="About AIIMS"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+
+        <activity android:name=".AboutUs"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+
+
         <activity
             android:name=".MedicalServices"
             android:label="Medical Services at AIIMS"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />/>
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+
         <activity android:name=".Malaria01"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
-        <activity android:name=".AboutUs"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
         <activity android:name=".Malaria02"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
@@ -43,12 +47,15 @@
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
         <activity android:name=".AmbulatoryCare"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
-        <activity android:name=".Maps"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
         <activity android:name=".Malaria05"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
         <activity android:name=".Malaria06"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+
+
+        <activity android:name=".Maps"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+
         <activity android:name=".Typhoid01"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
         <activity android:name=".Typhoid02"
@@ -63,10 +70,19 @@
             android:name=".docContacts"
             android:label="Doctor Contacts"
             android:theme="@style/doc_contacts" />
+
+        <activity android:name=".Cold01"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".Cold02"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".Cold03"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
         <activity android:name=".Cold04"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
         <activity android:name=".Cold05"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+
+
         <activity android:name=".Anemia01"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
         <activity android:name=".Anemia02"
@@ -77,10 +93,12 @@
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
         <activity android:name=".Anemia06"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".Anemia05"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+
         <activity android:name=".DiseasePreventionHome"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
-        <activity android:name=".Anemia05"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+
         <activity
             android:name=".DentistryNPsychiatry"
             android:label="Dentistry And Psychiatry"
