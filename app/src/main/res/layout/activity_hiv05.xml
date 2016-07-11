@@ -35,7 +35,7 @@
         android:id="@+id/button51"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:onClick="hiv06" />
+        android:onClick="hiv04" />
 
     <Button
         android:layout_width="wrap_content"

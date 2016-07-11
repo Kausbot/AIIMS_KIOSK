@@ -54,5 +54,5 @@
         android:id="@+id/button80"
         android:layout_alignTop="@+id/button79"
         android:layout_alignEnd="@+id/textView45"
-        android:onClick="anemia03"/>
+        android:onClick="anemia04"/>
 </RelativeLayout>
