@@ -99,4 +99,6 @@
     <string name="microbiology3">microbiology</string>
     <string name="pedeatrics_amp_obgy"><![CDATA[pedeatrics & obgy]]></string>
     <string name="dentistry_amp_psychiatry"><![CDATA[dentistry & psychiatry]]></string>
+    <string name="previous_scheme">previous scheme</string>
+    <string name="next_scheme">next scheme</string>
 </resources>

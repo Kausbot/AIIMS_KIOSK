@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical" android:id="@+id/ScrollView">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ps1.bits_pilani.goa.aiims_kiosk.pmsjby"
+    android:background="#151515">
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="previous scheme"
+        android:id="@+id/button38"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="#eb6003"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="next scheme"
+        android:id="@+id/button39"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/button38"
+        android:textColor="#ffffff"
+        android:background="#0954be" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView74"
+        android:src="@drawable/surakshabimayojna"
+        android:layout_alignTop="@+id/button38"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Pradhan Mantri Suraksha Bima Yojana is a government-backed accident insurance scheme in India. It was originally mentioned in the 2015 Budget speech by Finance Minister Arun Jaitley in February 2015.It was formally launched by Prime Minister Narendra Modi on 9 May in Kolkata.As of May 2015, only 20% of India&apos;s population has any kind of insurance, this scheme aims to increase the number."
+        android:id="@+id/textView70"
+        android:layout_below="@+id/imageView74"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Key Features"
+        android:id="@+id/textView71"
+        android:layout_below="@+id/textView70"
+        android:layout_alignParentStart="true"
+        android:textColor="#fb0505" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Pradhan Mantri Suraksha Bima Yojana is available to people between 18 and 70 years of age with bank accounts. It has an annual premium of ₹12 (18¢ US) excluding service tax, which is about 14% of the premium. The amount will be automatically debited from the account. In case of accidental death or full disability, the payment to the nominee will be ₹2 lakh (US$3,000) and in case of partial Permanent disability ₹1 lakh (US$1,500). Full disability has been defined as loss of use in both eyes, hands or feet. Partial Permanent disability has been defined as loss of use in one eye, hand or foot."
+        android:id="@+id/textView72"
+        android:layout_below="@+id/textView71"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="This scheme will be linked to the bank accounts opened under the Pradhan Mantri Jan Dhan Yojana scheme. Most of these account had zero balance initially. The government aims to reduce the number of such zero balance accounts by using this and related schemes."
+        android:id="@+id/textView73"
+        android:layout_below="@+id/textView72"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>
+</ScrollView>

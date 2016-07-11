@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical" android:id="@+id/ScrollView">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ps1.bits_pilani.goa.aiims_kiosk.rntcp"
+    android:background="#151515">
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="previous scheme"
+        android:id="@+id/button102"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="#eb6003"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="next scheme"
+        android:id="@+id/button103"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/button102"
+        android:background="#0954be"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView78"
+        android:src="@drawable/rntcp"
+        android:layout_alignBottom="@+id/textView80"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="95dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Revised National Tuberculosis Control Program (RNTCP) is the state-run tuberculosis (TB) control initiative of the Government of India. As per the National Strategic Plan 2012–17, the program has a vision of achieving a &quot;TB free India&quot;, and aims to achieve Universal Access to TB control services.[1] The program provides, various free of cost, quality tuberculosis diagnosis and treatment services across the country through the government health system."
+        android:id="@+id/textView80"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/button102"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="333dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Program Strategy"
+        android:id="@+id/textView81"
+        android:layout_below="@+id/imageView78"
+        android:layout_alignParentStart="true"
+        android:textColor="#f70606" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="The program initially adopted the WHO-DOTS strategy which consisted of the five components of strong political will and administrative commitment, diagnosis by quality assured sputum smear microscopy, uninterrupted supply of quality assured Short Course chemotherapy drugs, Directly Observed Treatment (DOT) and systematic monitoring and Accountability. The DOTS strategy achieved and sustained the target detection rate of 70% of all estimated cases and a cure rate of 85% in new cases and led to the decrease in incidence of TB in the country."
+        android:id="@+id/textView82"
+        android:layout_below="@+id/textView81"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>
+    </ScrollView>
