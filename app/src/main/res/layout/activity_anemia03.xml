@@ -45,7 +45,7 @@
         android:id="@+id/button79"
         android:layout_alignTop="@+id/button78"
         android:layout_centerHorizontal="true"
-        android:onClick="home"/>
+        android:onClick="diseaseHome"/>
 
     <Button
         android:layout_width="wrap_content"
