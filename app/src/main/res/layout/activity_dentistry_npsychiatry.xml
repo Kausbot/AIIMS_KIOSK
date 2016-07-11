@@ -24,17 +24,49 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView54"
         android:src = "@drawable/dentist2"
-        android:layout_marginBottom="74dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_marginBottom="75dp" />
 
-    <ImageView
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView55"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="DENTISTRY"
+        android:id="@+id/textView107"
+        android:layout_marginBottom="124dp"
         android:layout_alignBottom="@+id/imageView54"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="58dp"
-        android:src = "@drawable/dentnpsych"/>
+        android:layout_alignParentStart="true"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Dental X-ray is done in AIIMS Bhopal"
+        android:id="@+id/textView108"
+        android:layout_marginTop="19dp"
+        android:layout_alignTop="@+id/textView107"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="PSYCHIATRY"
+        android:id="@+id/textView109"
+        android:layout_below="@+id/textView108"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Tool Based Neuro psychiatric evaluations performed."
+        android:id="@+id/textView110"
+        android:layout_below="@+id/textView109"
+        android:layout_alignParentStart="true" />
+
 </RelativeLayout>

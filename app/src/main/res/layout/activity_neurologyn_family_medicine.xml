@@ -7,39 +7,55 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ps1.bits_pilani.goa.aiims_kiosk.NeurologynFamilyMedicine">
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView41"
-        android:src = "@drawable/neurology"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="193dp" />
+    tools:context="ps1.bits_pilani.goa.aiims_kiosk.NeurologynFamilyMedicine"
+    android:background="#e9e9e9">
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView42"
         android:src = "@drawable/familymedicine"
-        android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="139dp" />
+        android:layout_alignParentEnd="true"
+        android:scaleType="fitXY"/>
 
-    <ImageView
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView43"
-        android:layout_below="@+id/imageView41"
-        android:layout_centerHorizontal="true"
-        android:src = "@drawable/neurology1"/>
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="NEUROLOGY"
+        android:id="@+id/textView103"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000" />
 
-    <ImageView
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView44"
-        android:layout_below="@+id/imageView43"
-        android:layout_centerHorizontal="true"
-        android:src = "@drawable/family"/>
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="EMG &amp; EEG services are available."
+        android:id="@+id/textView104"
+        android:layout_below="@+id/textView103"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Family Medicine"
+        android:id="@+id/textView105"
+        android:layout_below="@+id/textView104"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="19dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Water testing facility available."
+        android:id="@+id/textView106"
+        android:layout_below="@+id/textView105"
+        android:layout_alignParentStart="true" />
+
 </RelativeLayout>
