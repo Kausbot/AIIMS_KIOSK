@@ -62,7 +62,9 @@
         <activity android:name=".anemia03" />
         <activity android:name=".Anemia04" />
         <activity android:name=".Anemia06" />
-        <activity android:name=".DiseasePreventionHome" />
+        <activity android:name=".DiseasePreventionHome"
+            android:theme="@style/dap"
+            android:label="Diseases and Prevention"/>
         <activity android:name=".Anemia05" />
         <activity
             android:name=".Schemes"

@@ -16,7 +16,9 @@
     <color name="colorPrimary_maps">#8c2912</color>
     <color name="colorPrimaryDark_maps">#681a07</color>
     <color name="colorPrimary_ms">#23b3dc</color>
-    <color name="colorPrimaryDark_ms">#017a9d</color>
+    <color name="colorPrimaryDark_ms">#017a9d</color> ff6600
+    <color name="colorPrimary_dap">#ff6600</color>
+    <color name="colorPrimaryDark_dap">#e15e06</color>
 
 
 </resources>
