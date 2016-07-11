@@ -83,7 +83,7 @@ public class MainMenu extends AppCompatActivity {
     }
 
     public void ambulatoryCare(View view) {
-        Intent aC = new Intent(this, AmbulatoryCare.class);
+        Intent aC = new Intent(this, MedicalTechnology.class);
 
         startActivity(aC);
     }
