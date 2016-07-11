@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:scrollbars="vertical" android:id="@+id/ScrollView">
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -13,26 +10,33 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="ps1.bits_pilani.goa.aiims_kiosk.rntcp"
     android:background="#151515">
-
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical" android:id="@+id/ScrollView">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp">
     <Button
-        android:layout_width="180dp"
+        android:layout_width="115dp"
         android:layout_height="wrap_content"
         android:text="previous scheme"
         android:id="@+id/button102"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
         android:background="#eb6003"
-        android:textColor="#ffffff" />
+        android:textColor="#ffffff"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
 
     <Button
-        android:layout_width="180dp"
+        android:layout_width="115dp"
         android:layout_height="wrap_content"
         android:text="next scheme"
         android:id="@+id/button103"
-        android:layout_alignParentTop="true"
-        android:layout_toEndOf="@+id/button102"
         android:background="#0954be"
-        android:textColor="#ffffff" />
+        android:textColor="#ffffff"
+        android:layout_above="@+id/textView80"
+        android:layout_toEndOf="@+id/button116" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -40,8 +44,8 @@
         android:id="@+id/imageView78"
         android:src="@drawable/rntcp"
         android:layout_alignBottom="@+id/textView80"
-        android:layout_alignParentEnd="true"
-        android:layout_marginBottom="95dp" />
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="104dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -74,5 +78,15 @@
         android:layout_alignParentStart="true"
         android:textColor="#ffffff" />
 
-</RelativeLayout>
+            <Button
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:text="home"
+                android:id="@+id/button116"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="#f5d40c" />
+
+        </RelativeLayout>
     </ScrollView>
+    </RelativeLayout>

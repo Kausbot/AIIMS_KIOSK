@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:scrollbars="vertical" android:id="@+id/ScrollView">
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -13,29 +10,37 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="ps1.bits_pilani.goa.aiims_kiosk.Govt_Schemes.MMS"
     android:background="#151515">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical" android:id="@+id/ScrollView">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp">
 
     <Button
-        android:layout_width="165dp"
+        android:layout_width="115dp"
         android:layout_height="wrap_content"
         android:text="previous scheme"
         android:id="@+id/button106"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
         android:background="#eb6003"
         android:textColor="#ffffff"
-        android:onClick="mmsp"/>
+        android:onClick="mmsp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
-        android:layout_width="165dp"
+        android:layout_width="115dp"
         android:layout_height="wrap_content"
         android:text="next scheme"
         android:id="@+id/button107"
-        android:layout_alignBottom="@+id/button106"
-        android:layout_toEndOf="@+id/button106"
         android:background="#0954be"
         android:textColor="#ffffff"
-        android:onClick="mmsn"/>
+        android:onClick="mmsn"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -43,7 +48,8 @@
         android:id="@+id/imageView80"
         android:src="@drawable/midday"
         android:layout_below="@+id/button106"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="55dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -94,5 +100,27 @@
         android:layout_marginTop="148dp"
         android:textColor="#ffffff" />
 
-</RelativeLayout>
+            <Button
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:text="home"
+                android:id="@+id/button120"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/button107"
+                android:background="#d3d3d3"
+                android:onClick="mmsh" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Mid Day Meal Scheme"
+                android:id="@+id/textView102"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/button106"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="29dp" />
+
+        </RelativeLayout>
     </ScrollView>
+    </RelativeLayout>

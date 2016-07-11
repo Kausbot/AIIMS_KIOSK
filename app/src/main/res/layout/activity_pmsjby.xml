@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:scrollbars="vertical" android:id="@+id/ScrollView">
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -13,35 +10,46 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="ps1.bits_pilani.goa.aiims_kiosk.pmsjby"
     android:background="#151515">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical" android:id="@+id/ScrollView"
+        android:onClick="pmsjbyh">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp">
 
     <Button
-        android:layout_width="165dp"
+        android:layout_width="115dp"
         android:layout_height="wrap_content"
         android:text="previous scheme"
         android:id="@+id/button38"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         android:background="#eb6003"
-        android:textColor="#ffffff" />
+        android:textColor="#ffffff"
+        android:layout_toStartOf="@+id/button118"
+        android:onClick="pmsjbyp" />
 
     <Button
-        android:layout_width="165dp"
+        android:layout_width="115dp"
         android:layout_height="wrap_content"
         android:text="next scheme"
         android:id="@+id/button39"
-        android:layout_alignParentTop="true"
-        android:layout_toEndOf="@+id/button38"
         android:textColor="#ffffff"
-        android:background="#0954be" />
+        android:background="#0954be"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="pmsjbyn" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView74"
         android:src="@drawable/surakshabimayojna"
-        android:layout_alignTop="@+id/button38"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="20dp" />
+        android:layout_below="@+id/button38"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -83,5 +91,15 @@
         android:layout_alignParentStart="true"
         android:textColor="#ffffff" />
 
-</RelativeLayout>
+            <Button
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:text="home"
+                android:id="@+id/button118"
+                android:background="#d3d3d3"
+                android:layout_above="@+id/imageView74"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
 </ScrollView>
+    </RelativeLayout>
