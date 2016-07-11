@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import ps1.bits_pilani.goa.aiims_kiosk.PathologyAndLabMedicine;
-import ps1.bits_pilani.goa.aiims_kiosk.Pmsjby;
+import ps1.bits_pilani.goa.aiims_kiosk.pmsjby;
 import ps1.bits_pilani.goa.aiims_kiosk.R;
 
 public class PMJJBY extends AppCompatActivity {
@@ -17,7 +17,7 @@ public class PMJJBY extends AppCompatActivity {
         setContentView(R.layout.activity_pmjjby);
     }
     public void pmjjbyp (View view) {
-        Intent i = new Intent(this, Pmsjby.class);
+        Intent i = new Intent(this, pmsjby.class);
         startActivity(i);
     }
     public void pmjjbyn (View view) {

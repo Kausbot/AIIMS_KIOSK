@@ -37,15 +37,12 @@ public class MedicalServices extends AppCompatActivity {
         Intent i = new Intent(this,OutReachFamilyCare.class);
         startActivity(i);
     }
-    public void ambcare (View view) {
-        Intent i = new Intent(this,AmbulatoryCare.class);
-        startActivity(i);
-    }
+
     public void acute (View view) {
         Intent i = new Intent(this,AcuteCar.class);
         startActivity(i);
     }
-    public void long (View view) {
+    public void ltcc (View view) {
         Intent i = new Intent(this,LongTermChronicCare.class);
         startActivity(i);
     }

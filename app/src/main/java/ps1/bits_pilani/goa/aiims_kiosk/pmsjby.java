@@ -3,7 +3,7 @@ package ps1.bits_pilani.goa.aiims_kiosk;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Pmsjby extends AppCompatActivity {
+public class pmsjby extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

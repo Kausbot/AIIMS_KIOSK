@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import ps1.bits_pilani.goa.aiims_kiosk.Pmsjby;
+import ps1.bits_pilani.goa.aiims_kiosk.pmsjby;
 import ps1.bits_pilani.goa.aiims_kiosk.R;
 
 public class NFSM extends AppCompatActivity {

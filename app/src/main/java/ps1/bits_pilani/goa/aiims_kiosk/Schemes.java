@@ -93,7 +93,7 @@ public class Schemes extends AppCompatActivity {
     }
 
     public void PMSBY(View view) {
-        Intent pmsby = new Intent(this, PMSBY.class);
+        Intent pmsby = new Intent(this, pmsjby.class);
 
         startActivity(pmsby);
 

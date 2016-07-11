@@ -126,7 +126,6 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView73"
                 android:src="@drawable/icds1"
-                and
                 android:layout_alignParentTop="true"
                 android:layout_alignParentStart="true" />
 

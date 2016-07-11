@@ -22,85 +22,134 @@
         <activity
             android:name=".MainMenu"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-        <!-- android:theme="@style/ThemeOverlay.AppCompat.Dark" -->
+
         <activity
             android:name=".AboutAIIMS"
-            android:label="About AIIMS" />
+            android:label="About AIIMS"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
         <activity
             android:name=".MedicalServices"
-            android:label="Medical Services at AIIMS" />
-        <activity android:name=".Malaria01" />
-        <activity android:name=".AboutUs" />
-        <activity android:name=".Malaria02" />
-        <activity android:name=".Malaria03" />
-        <activity android:name=".Malaria04" />
-        <activity android:name=".AmbulatoryCare" />
-        <activity android:name=".Maps" />
-        <activity android:name=".Malaria05" />
-        <activity android:name=".Malaria06" />
-        <activity android:name=".Typhoid01" />
-        <activity android:name=".Typhoid02" />
-        <activity android:name=".Typhoid03" />
-        <activity android:name=".Typhoid04" />
-        <activity android:name=".Typhoid05" />
+            android:label="Medical Services at AIIMS"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />/>
+        <activity android:name=".Malaria01"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".AboutUs"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".Malaria02"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".Malaria03"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".Malaria04"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".AmbulatoryCare"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".Maps"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".Malaria05"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".Malaria06"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".Typhoid01"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".Typhoid02"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".Typhoid03"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".Typhoid04"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".Typhoid05"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
         <activity
             android:name=".docContacts"
             android:label="Doctor Contacts"
             android:theme="@style/doc_contacts" />
-        <activity android:name=".Cold04" />
-        <activity android:name=".Cold05" />
-        <activity android:name=".Anemia01" />
-        <activity android:name=".Anemia02" />
-        <activity android:name=".anemia03" />
-        <activity android:name=".Anemia04" />
-        <activity android:name=".Anemia06" />
-        <activity android:name=".DiseasePreventionHome" />
-        <activity android:name=".Anemia05" />
-        <activity android:name=".Schemes" />
+        <activity android:name=".Cold04"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".Cold05"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".Anemia01"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".Anemia02"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".anemia03"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".Anemia04"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".Anemia06"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".DiseasePreventionHome"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".Anemia05"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
         <activity
             android:name=".DentistryNPsychiatry"
-            android:label="Dentistry And Psychiatry" />
+            android:label="Dentistry And Psychiatry"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
         <activity
             android:name=".ENT"
-            android:label="ENT" />
+            android:label="ENT"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
         <activity
             android:name=".PathologyAndLabMedicine"
-            android:label="Pathology And Lab Medicine" />
+            android:label="Pathology And Lab Medicine"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
         <activity
             android:name=".ClinicalBioChem"
-            android:label="Clinical Bio Chemistry" />
+            android:label="Clinical Bio Chemistry"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
         <activity
             android:name=".Microbiology"
-            android:label="Microbiology" />
+            android:label="Microbiology"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
         <activity
             android:name=".GeneralMedicine"
-            android:label="General Medicine" />
+            android:label="General Medicine"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
         <activity
             android:name=".NeurologynFamilyMedicine"
-            android:label="Neurology And Family Medicine" />
+            android:label="Neurology And Family Medicine"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
         <activity
             android:name=".RadiologynPulmonary"
-            android:label="Radiology And Family Medicine" />
+            android:label="Radiology And Family Medicine"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
         <activity
             android:name=".PediatricsNOBGY"
-            android:label="Pediatrics And OBGY" />
+            android:label="Pediatrics And OBGY"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
         <activity
             android:name=".MedicalTechnology"
-            android:label="Medical Technology at AIIMS" />
+            android:label="Medical Technology at AIIMS"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
         <activity
             android:name=".OPDschedule"
-            android:label="OPD Schedule" />
-        <activity android:name=".actnBar2" />
-        <activity android:name=".Govt_Schemes.IGMSY" />
-        <activity android:name=".Govt_Schemes.MMS" />
-        <activity android:name=".Govt_Schemes.ICDS" />
-        <activity android:name=".Govt_Schemes.JSY" />
-        <activity android:name=".Govt_Schemes.PMJDY" />
-        <activity android:name=".Govt_Schemes.PMJJBY" />
-        <activity android:name=".Govt_Schemes.NFSM" />
-        <activity android:name=".pmsjby" />
-        <activity android:name=".jananiSuraksha" />
-        <activity android:name=".rntcp"></activity>
+            android:label="OPD Schedule"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".actnBar2"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".Govt_Schemes.IGMSY"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".Govt_Schemes.MMS"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".Govt_Schemes.ICDS"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".Govt_Schemes.JSY"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".Govt_Schemes.PMJDY"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".Govt_Schemes.PMJJBY"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".Govt_Schemes.NFSM"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".pmsjby"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".jananiSuraksha"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".rntcp"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".Schemes"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+            />
     </application>
 
 </manifest>

@@ -8,7 +8,7 @@ import android.view.View;
 import ps1.bits_pilani.goa.aiims_kiosk.Govt_Schemes.ICDS;
 import ps1.bits_pilani.goa.aiims_kiosk.Govt_Schemes.MMS;
 
-public class JananiSuraksha extends AppCompatActivity {
+public class jananiSuraksha extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
