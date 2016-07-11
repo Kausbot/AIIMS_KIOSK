@@ -21,16 +21,19 @@
         </activity>
         <activity
             android:name=".MainMenu"
+            android:label="AIIMS Bhopal"
             android:theme="@style/Theme.AppCompat.DayNight" />
 
-        <activity android:name=".helpPage" />
+        <activity android:name=".helpPage"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
         <activity
             android:name=".AboutAIIMS"
             android:label="About AIIMS"
             android:theme="@style/about_aiims"/>
 
         <activity android:name=".AboutUs"
-            android:theme="@style/about_us"/>
+            android:theme="@style/about_us"
+            android:label="About Us"/>
 
 
         <activity
@@ -69,7 +72,8 @@
 
 
         <activity android:name=".Maps"
-            android:theme="@style/maps"/>
+            android:theme="@style/maps"
+            android:label="Getting around"/>
 
         <activity android:name=".Typhoid01"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
@@ -112,7 +116,8 @@
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
 
         <activity android:name=".DiseasePreventionHome"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+            android:theme="@style/dap"
+            android:label="Diseases and Prevention"/>
 
         <activity
             android:name=".DentistryNPsychiatry"

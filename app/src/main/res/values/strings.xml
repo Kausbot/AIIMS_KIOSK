@@ -41,7 +41,14 @@
     <string name="Health">Health</string>
 
     <string name="ICDS_intro">Integrated Child Development Services (ICDS) is an Indian government welfare programme which provides food, preschool education, and primary healthcare to children under 6 years of age and their mothers. These services are provided from Anganwadi centres established mainly in rural areas and staffed with frontline workers. In addition to fighting malnutrition and ill health, the programme is also intended to combat gender inequality by providing girls the same resources as boys.</string>
-
+    <string name="IGMSY_elig">"Any woman is entitled to receive the benefit of the Woman must fulfill 4 criteria:\n
+        \n
+    1.Pregnant women\n
+    2.Not less than 19 years old\n
+    3.This is her first or second live birth\n
+    4.She or her husband does not work in Government / Public Sector Undertaking (Central and State)\n
+\n
+Anganwadi workers and anganwadi Helpers may also avail the benefit under the Scheme if they are not receiving paid maternity benefits from the Government and fulfill the above-mentioned 4 criteria "</string>
 
     <!-- MAPS -->
     <string name="Maps_1_intro">AIIMS is situated in the Saket Nagar area of New Bhopal. One can reach the hospital by exiting via a left exit NH-12, and traveling straight for about 2 kms. The map below illustrates AIIMS\'s location:</string>

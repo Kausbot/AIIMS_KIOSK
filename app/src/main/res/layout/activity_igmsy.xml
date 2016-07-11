@@ -73,14 +73,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Any woman is entitled to receive the benefit of the Woman must fulfill 4 criteria:
-
-    1.Pregnant women
-    2.Not less than 19 years old
-    3.This is her first or second live birth
-    4.She or her husband does not work in Government / Public Sector Undertaking (Central and State)
-
-Anganwadi workers and anganwadi Helpers may also avail the benefit under the Scheme if they are not receiving paid maternity benefits from the Government and fulfill the above-mentioned 4 criteria "
+        android:text="@string/IGMSY_elig"
         android:id="@+id/textView56"
         android:layout_below="@+id/textView55"
         android:layout_alignParentStart="true"

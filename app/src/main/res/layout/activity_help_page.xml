@@ -9,13 +9,96 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="ps1.bits_pilani.goa.aiims_kiosk.helpPage">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Help"
+                android:id="@+id/textView60"
+                android:textSize="50sp"
+
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="normal"
+                android:textColor="@color/colorPrimary"
+                android:layout_alignParentStart="true"
+                android:layout_centerHorizontal="true" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="The help image is to be added here!"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="This is the layout of a basic page of the activity. The app supports Scrolling and tapping on the screen. Tap on icons/buttons to navigate to another page. Tap on help button to get help.Tap on Home button to return to main menu. Scroll up/down to display more of the screen."
         android:id="@+id/textView59"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="normal"
+        android:textColor="@color/main_text"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView60"
+        android:layout_marginTop="20sp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView85"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="20sp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/one"
+                android:layout_below="@+id/textView59" />
+    <!--<ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView85"
+        android:src="@drawable/one"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="132dp" />
+        android:layout_alignParentEnd="false"
+        android:layout_alignBottom="@+id/textView59" />
+   < <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView86"
+        android:layout_below="@+id/textView59"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/textView102"
+        android:layout_below="@+id/imageView86"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView87"
+        android:layout_below="@+id/textView102"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/textView103"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />-->
+</RelativeLayout>
+    </ScrollView>
+
+
+
 </RelativeLayout>

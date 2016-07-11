@@ -30,6 +30,8 @@
             android:textSize="50sp"
             android:textColorHint="@color/colorPrimary"
             android:text="@string/homeScr_intro_Hello"
+            android:fontFamily="sans-serif-condensed"
+
             android:textColor="@color/colorPrimary"
             android:id="@+id/main_introHello"
             android:layout_marginBottom="12dp"
