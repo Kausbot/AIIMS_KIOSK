@@ -24,8 +24,7 @@
         android:text="Malaria is a mosquito-borne infectious disease of humans and other animals caused by parasitic protozoans (a group of single-celled microorganisms) belonging to the Plasmodium type.Malaria causes symptoms that typically include fever, fatigue, vomiting, and headaches. In severe cases it can cause yellow skin, seizures, coma, or death.Symptoms usually begin ten to fifteen days after being bitten. If not properly treated, people may have recurrences of the disease months later.In those who have recently survived an infection, reinfection usually causes milder symptoms. This partial resistance disappears over months to years if the person has no continuing exposure to malaria."
         android:id="@+id/textView11"
         android:textColor="#000000"
-        android:layout_marginBottom="58dp"
-        android:layout_alignParentBottom="true"
+        android:layout_above="@+id/button7"
         android:layout_alignParentStart="true" />
 
     <Button

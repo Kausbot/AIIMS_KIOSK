@@ -24,10 +24,9 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Keep doors and windows closed. If possible, you should keep doors and windows tightly sealed while you&apos;re indoors. People who sleep outside or are exposed to the outdoors at night are at much higher risk of contracting malaria. You may not be able to close the doors and windows if you&apos;re in a very hot, muggy place. Whether you can or not, use a mosquito net over your bed for added protection."
         android:id="@+id/textView14"
-        android:layout_marginBottom="67dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#000000" />
+        android:textColor="#000000"
+        android:layout_above="@+id/button15"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"

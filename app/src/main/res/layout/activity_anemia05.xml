@@ -22,12 +22,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Check your medications. Certain medications can make people more prone to developing anemia. If you&apos;re on medications that may put you at risk, ask your doctor whether there&apos;s an alternative medication that will do the job without causing you to become anemic. The following medications may lead to anemia:[28] Cephalosporins Dapsone Levodopa Levofloxacin Methyldopa Nitrofurantoin Nonsteroidal anti-inflammatory drugs (NSAIDs), especially if used frequently Penicillin and its derivatives Phenazopyridine (pyridium) Quinidine[29]"
+        android:text="Certain medications can make people more prone to developing anemia. If you&apos;re on medications that may put you at risk, ask your doctor whether there&apos;s an alternative medication that will do the job without causing you to become anemic. Cephalosporins Dapsone Levodopa Levofloxacin Methyldopa Nitrofurantoin Nonsteroidal anti-inflammatory drugs (NSAIDs)"
         android:id="@+id/textView51"
-        android:layout_marginBottom="35dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#000000" />
+        android:textColor="#000000"
+        android:layout_above="@+id/button92"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
