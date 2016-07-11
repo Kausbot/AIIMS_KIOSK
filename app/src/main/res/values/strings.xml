@@ -101,4 +101,5 @@
     <string name="dentistry_amp_psychiatry"><![CDATA[dentistry & psychiatry]]></string>
     <string name="previous_scheme">previous scheme</string>
     <string name="next_scheme">next scheme</string>
+    <string name="long_term_chronic_are">long term chronic care</string>
 </resources>

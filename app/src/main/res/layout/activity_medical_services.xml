@@ -32,7 +32,8 @@
         android:background="@drawable/nicebutton"
         android:layout_alignTop="@+id/gridLayout2"
         android:layout_centerHorizontal="true"
-        android:onClick="ambcare"/>
+        android:onClick="ambcare"
+        android:textColor="#ffffff" />
 
     <Button
         android:layout_width="240dp"
@@ -42,7 +43,9 @@
         android:background="@drawable/nicebutton"
         android:layout_above="@+id/button12"
         android:layout_alignStart="@+id/button9"
-        android:layout_marginBottom="25dp" />
+        android:layout_marginBottom="25dp"
+        android:onClick="famcare"
+        android:textColor="#ffffff" />
 
     <Button
         android:layout_width="240dp"
@@ -51,17 +54,21 @@
         android:id="@+id/button12"
         android:background="@drawable/nicebutton"
         android:layout_centerVertical="true"
-        android:layout_alignStart="@+id/button10" />
+        android:layout_alignStart="@+id/button10"
+        android:onClick="acute"
+        android:textColor="#ffffff" />
 
     <Button
         android:layout_width="240dp"
         android:layout_height="wrap_content"
-        android:text="@string/long_term_acute_care"
+        android:text="@string/long_term_chronic_are"
         android:id="@+id/button13"
         android:background="@drawable/nicebutton"
         android:layout_marginTop="30dp"
         android:layout_below="@+id/button12"
-        android:layout_alignStart="@+id/button12" />
+        android:layout_alignStart="@+id/button12"
+        android:onClick="long"
+        android:textColor="#ffffff" />
 
     <Button
         android:layout_width="240dp"
@@ -71,7 +78,9 @@
         android:background="@drawable/nicebutton"
         android:layout_marginTop="31dp"
         android:layout_below="@+id/button13"
-        android:layout_alignStart="@+id/button13" />
+        android:layout_alignStart="@+id/button13"
+        android:textColor="#ffffff"
+        android:onClick="surgical"/>
 
 </RelativeLayout>
 </RelativeLayout>
