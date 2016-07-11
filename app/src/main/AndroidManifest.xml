@@ -30,7 +30,8 @@
             android:theme="@style/about_aiims"/>
         <activity
             android:name=".MedicalServices"
-            android:label="Medical Services at AIIMS" />
+            android:label="Medical Services at AIIMS"
+            android:theme="@style/medical_services"/>
         <activity android:name=".Malaria01" />
         <activity
             android:name=".AboutUs"
@@ -40,7 +41,9 @@
         <activity android:name=".Malaria03" />
         <activity android:name=".Malaria04" />
         <activity android:name=".AmbulatoryCare" />
-        <activity android:name=".Maps" />
+        <activity android:name=".Maps"
+            android:theme="@style/maps"
+            android:label="Getting Around"/>
         <activity android:name=".Malaria05" />
         <activity android:name=".Malaria06" />
         <activity android:name=".Typhoid01" />

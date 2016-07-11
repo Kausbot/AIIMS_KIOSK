@@ -58,4 +58,24 @@
         <item name="android:textColorPrimary">@color/background_material_light</item>
     </style>
 
+    <style name="maps" parent="Theme.AppCompat.Light.NoActionBar" >
+        <item name="colorPrimary">@color/colorPrimary_maps</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_maps</item>
+        <item name="android:windowBackground">@color/background_floating_material_light</item>
+        <item name="android:colorBackground">@color/background_material_light</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColorPrimary">@color/background_material_light</item>
+    </style>
+
+    <style name="medical_services" parent="Theme.AppCompat.Light.NoActionBar" >
+        <item name="colorPrimary">@color/colorPrimary_ms</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_ms</item>
+        <item name="android:windowBackground">@color/background_floating_material_light</item>
+        <item name="android:colorBackground">@color/background_material_light</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColorPrimary">@color/background_material_light</item>
+    </style>
+
 </resources>

@@ -13,4 +13,10 @@
     <color name="colorPrimaryDark_gov">#87b811</color>
     <color name="colorPrimary_aa">#fdd413</color>
     <color name="colorPrimaryDark_aa">#ffba00</color>
+    <color name="colorPrimary_maps">#8c2912</color>
+    <color name="colorPrimaryDark_maps">#681a07</color>
+    <color name="colorPrimary_ms">#23b3dc</color>
+    <color name="colorPrimaryDark_ms">#017a9d</color>
+
+
 </resources>
