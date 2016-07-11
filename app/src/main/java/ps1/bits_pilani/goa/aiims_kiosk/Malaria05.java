@@ -10,8 +10,10 @@ public class Malaria05 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_malaria05);
-    }public void malaria01(View view) {
+        setContentView(R.layout.activity_malaria05);overridePendingTransition(R.anim.hold, R.anim.fade_in);
+    }
+
+    public void malaria01(View view) {
         Intent next = new Intent(this, Malaria01.class);
         startActivity(next);
 

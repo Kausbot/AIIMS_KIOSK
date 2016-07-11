@@ -9,7 +9,7 @@ public class HIV02 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+        super.onCreate(savedInstanceState);overridePendingTransition(R.anim.hold, R.anim.fade_in);
         setContentView(R.layout.activity_hiv02);
     }
     public void hiv01(View view) {

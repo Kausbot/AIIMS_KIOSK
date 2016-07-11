@@ -32,40 +32,60 @@
             android:name=".MedicalServices"
             android:label="Medical Services at AIIMS"
             android:theme="@style/medical_services"/>
-        <activity android:name=".Malaria01" />
+
         <activity
             android:name=".AboutUs"
             android:label="About Us"
             android:theme="@style/about_us" />
-        <activity android:name=".Malaria02" />
-        <activity android:name=".Malaria03" />
-        <activity android:name=".Malaria04" />
+
         <activity android:name=".AmbulatoryCare" />
         <activity android:name=".Maps"
             android:theme="@style/maps"
             android:label="Getting Around"/>
+
+        <activity android:name=".Malaria01" />
+        <activity android:name=".Malaria02" />
+        <activity android:name=".Malaria03" />
+        <activity android:name=".Malaria04" />
         <activity android:name=".Malaria05" />
         <activity android:name=".Malaria06" />
+
         <activity android:name=".Typhoid01" />
         <activity android:name=".Typhoid02" />
         <activity android:name=".Typhoid03" />
         <activity android:name=".Typhoid04" />
         <activity android:name=".Typhoid05" />
-        <activity
-            android:name=".docContacts"
-            android:label="Doctor Contacts"
-            android:theme="@style/doc_contacts" />
+
+        <activity android:name=".HIV01" />
+        <activity android:name=".HIV02" />
+        <activity android:name=".HIV03" />
+        <activity android:name=".HIV04" />
+        <activity android:name=".HIV05" />
+        <activity android:name=".HIV06" />
+
+        <activity android:name=".Cold01" />
+        <activity android:name=".Cold02" />
+        <activity android:name=".Cold03" />
         <activity android:name=".Cold04" />
         <activity android:name=".Cold05" />
+
         <activity android:name=".Anemia01" />
         <activity android:name=".Anemia02" />
         <activity android:name=".anemia03" />
         <activity android:name=".Anemia04" />
+        <activity android:name=".Anemia05" />
         <activity android:name=".Anemia06" />
+
+        <activity
+            android:name=".docContacts"
+            android:label="Doctor Contacts"
+            android:theme="@style/doc_contacts" />
+
+
         <activity android:name=".DiseasePreventionHome"
             android:theme="@style/dap"
             android:label="Diseases and Prevention"/>
-        <activity android:name=".Anemia05" />
+
         <activity
             android:name=".Schemes"
             android:label="Govt. Schemes"
@@ -104,6 +124,7 @@
             android:name=".OPDschedule"
             android:label="OPD Schedule" />
         <activity android:name=".actnBar2" />
+
         <activity android:name=".Govt_Schemes.IGMSY" />
         <activity android:name=".Govt_Schemes.MMS" />
         <activity android:name=".Govt_Schemes.ICDS" />

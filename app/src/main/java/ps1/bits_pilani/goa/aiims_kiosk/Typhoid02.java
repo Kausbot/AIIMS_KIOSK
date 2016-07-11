@@ -9,9 +9,11 @@ public class Typhoid02 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+        super.onCreate(savedInstanceState);overridePendingTransition(R.anim.hold, R.anim.fade_in);
         setContentView(R.layout.activity_typhoid02);
-    }public void typhoid01(View view) {
+    }
+
+    public void typhoid01(View view) {
         Intent next = new Intent(this, Typhoid01.class);
         startActivity(next);
 

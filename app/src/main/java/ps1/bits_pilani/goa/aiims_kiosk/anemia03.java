@@ -10,7 +10,11 @@ public class anemia03 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_anemia03);
+        overridePendingTransition(R.anim.hold, R.anim.fade_in);
+
+
+    setContentView(R.layout.activity_anemia03);
+
     }
 
     public void anemia01(View view) {
