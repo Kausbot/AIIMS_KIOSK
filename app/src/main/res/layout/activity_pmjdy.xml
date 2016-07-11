@@ -151,14 +151,14 @@
         android:textColor="#ffffff" />
 
             <Button
-                android:layout_width="115dp"
+                android:layout_width="110dp"
                 android:layout_height="wrap_content"
                 android:text="home"
                 android:id="@+id/button121"
-                android:layout_alignParentTop="true"
-                android:layout_toEndOf="@+id/textView97"
                 android:background="#d3d3d3"
-                android:onClick="pmjdyh" />
+                android:onClick="pmjdyh"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/button24" />
 
         </RelativeLayout>
 </ScrollView>

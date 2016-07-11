@@ -19,7 +19,7 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="10dp">
     <Button
-        android:layout_width="115dp"
+        android:layout_width="105dp"
         android:layout_height="wrap_content"
         android:text="previous scheme"
         android:id="@+id/button102"
@@ -30,15 +30,15 @@
         android:onClick="rntcpp" />
 
     <Button
-        android:layout_width="115dp"
+        android:layout_width="105dp"
         android:layout_height="wrap_content"
         android:text="next scheme"
         android:id="@+id/button103"
         android:background="#0954be"
         android:textColor="#ffffff"
-        android:layout_above="@+id/textView80"
-        android:layout_toEndOf="@+id/button116"
-        android:onClick="rntcpn" />
+        android:onClick="rntcpn"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -47,7 +47,7 @@
         android:src="@drawable/rntcp"
         android:layout_alignBottom="@+id/textView80"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="104dp" />
+        android:layout_marginBottom="91dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -81,13 +81,13 @@
         android:textColor="#ffffff" />
 
             <Button
-                android:layout_width="115dp"
+                android:layout_width="105dp"
                 android:layout_height="wrap_content"
                 android:text="home"
                 android:id="@+id/button116"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
-                android:background="#f5d40c"
+                android:background="#d3d3d3"
                 android:onClick="rntcph" />
 
         </RelativeLayout>

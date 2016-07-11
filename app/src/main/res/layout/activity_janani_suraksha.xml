@@ -127,13 +127,13 @@
         android:layout_alignParentStart="true" />
 
             <Button
-                android:layout_width="115dp"
+                android:layout_width="110dp"
                 android:layout_height="wrap_content"
                 android:text=" home"
                 android:id="@+id/button117"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
-                android:background="#f5d40c"
+                android:background="#d3d3d3"
                 android:onClick="jsyh" />
 
         </RelativeLayout>

@@ -101,14 +101,14 @@
         android:textColor="#ffffff" />
 
             <Button
-                android:layout_width="115dp"
+                android:layout_width="110dp"
                 android:layout_height="wrap_content"
                 android:text="home"
                 android:id="@+id/button120"
-                android:layout_alignParentTop="true"
-                android:layout_toStartOf="@+id/button107"
                 android:background="#d3d3d3"
-                android:onClick="mmsh" />
+                android:onClick="mmsh"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/button107" />
 
             <TextView
                 android:layout_width="wrap_content"

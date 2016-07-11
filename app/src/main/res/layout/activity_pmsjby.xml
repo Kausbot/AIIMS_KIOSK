@@ -39,9 +39,9 @@
         android:id="@+id/button39"
         android:textColor="#ffffff"
         android:background="#0954be"
+        android:onClick="pmsjbyn"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:onClick="pmsjbyn" />
+        android:layout_toEndOf="@+id/button118" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -92,7 +92,7 @@
         android:textColor="#ffffff" />
 
             <Button
-                android:layout_width="115dp"
+                android:layout_width="110dp"
                 android:layout_height="wrap_content"
                 android:text="home"
                 android:id="@+id/button118"
