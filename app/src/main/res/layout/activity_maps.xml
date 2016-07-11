@@ -3,9 +3,6 @@
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-
-
-
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -17,44 +14,207 @@
         android:id="@+id/maps_tool_bar"
         layout="@layout/maps_tool_bar"
         ></include>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/location_maps"
+            android:id="@+id/textView52"
+            android:textColor="@color/main_text"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginTop="60sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/Maps_1_intro"
         android:id="@+id/maps_1_intro"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="34dp"
-        android:layout_marginLeft="25sp" />
+
+        android:layout_below="@+id/textView52"
+        android:layout_marginTop="10sp" />
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/maps_saketnagar"
-
+        android:src="@drawable/map"
+        android:padding="10sp"
         android:layout_below="@id/maps_1_intro"
         android:adjustViewBounds="true"
-        android:layout_alignParentStart="true"
+        android:layout_alignParentStart="false"
         android:layout_marginTop="24sp"
         /><!--android:src="@drawable/map"-->
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Medium Text"
-        android:id="@+id/textView53"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/main_text"
+        android:fontFamily="sans-serif-condensed"
+        android:text="2. Accessibility"
+        android:id="@+id/Accessiblity"
         android:layout_marginTop="51dp"
         android:layout_below="@+id/maps_saketnagar"
         android:layout_alignParentStart="true" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/location_maps"
-        android:id="@+id/textView52"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/maps_accessibility"
+            android:id="@+id/textView53"
+            android:layout_below="@+id/Accessiblity"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="34dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/maps_accessiblity_2"
+            android:id="@+id/textView60"
+            android:layout_below="@+id/textView53"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="25sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:maxWidth="500dp"
+            android:layout_alignParentStart="false"
+            android:layout_below="@id/textView60"
+            android:layout_marginTop="20dp"
+            android:id="@+id/routeList"
+            android:shrinkColumns="2"
+            android:stretchColumns="2"
+            android:layout_centerVertical="true"
+            android:outlineProvider="bounds">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/route_row1"
+            android:layout_marginBottom="5sp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="BRTS helpline"
+                android:textStyle="bold"
+                android:layout_weight="2"
+                android:id="@+id/scheme"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0755-298-0097"
+                android:layout_weight="0.5"
+                android:textStyle="italic"
+                android:id="@+id/Type"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerHorizontal="true" />
+
+
+        </TableRow>
+
+        <!-- Row 02 -->
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/route_row2"
+            android:layout_marginBottom="5sp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="OLA Cabs booking number"
+                android:textStyle="bold"
+                android:layout_weight="2"
+                android:id="@+id/IGMSY"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0755-335-5335"
+                android:layout_weight="0.5"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerHorizontal="true" />
+        </TableRow>
+
+        <!-- Row03 -->
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/govt_schemes_row3"
+            android:layout_marginBottom="5sp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="MyCab Booking number"
+                android:textStyle="bold"
+
+                android:layout_weight="2"
+                android:id="@+id/ICDS"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0755-666-6666"
+                android:layout_weight="0.5"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerHorizontal="true" />
+        </TableRow>
+
+
+</TableLayout>
+    </RelativeLayout>
+</ScrollView>
 </RelativeLayout>

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical" android:id="@+id/ScrollView">
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,39 +13,29 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="ps1.bits_pilani.goa.aiims_kiosk.Govt_Schemes.NFSM"
     android:background="#151515">
-    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:scrollbars="vertical" android:id="@+id/ScrollView">
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="10dp"
-            android:onClick="nfsmh">
-
 
 
     <Button
-        android:layout_width="115dp"
+        android:layout_width="165dp"
         android:layout_height="wrap_content"
-        android:text="previous scheme"
+        android:text="PREVIOUS SCHEME"
         android:id="@+id/button104"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
         android:background="#eb6003"
         android:textColor="#ffffff"
-        android:onClick="nfsmp"
-        android:layout_alignParentTop="true"
-        android:layout_toStartOf="@+id/button119" />
+        android:onClick="nfsmp"/>
 
     <Button
-        android:layout_width="115dp"
+        android:layout_width="165dp"
         android:layout_height="wrap_content"
-        android:text="next scheme"
+        android:text="NEXT SCHEME"
         android:id="@+id/button105"
+        android:layout_alignTop="@+id/button104"
+        android:layout_toEndOf="@+id/button104"
         android:background="#0954be"
         android:textColor="#ffffff"
-        android:onClick="nfsmn"
-        android:layout_above="@+id/imageView79"
-        android:layout_toEndOf="@+id/button119" />
+        android:onClick="nfsmn"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -82,15 +75,5 @@
         android:layout_below="@+id/textView84"
         android:layout_alignParentStart="true"
         android:textColor="#ffffff" />
-
-            <Button
-                android:layout_width="115dp"
-                android:layout_height="wrap_content"
-                android:text="home"
-                android:id="@+id/button119"
-                android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true"
-                android:background="#d3d3d3" />
-        </RelativeLayout>
+</RelativeLayout>
     </ScrollView>
-    </RelativeLayout>
