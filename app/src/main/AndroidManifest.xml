@@ -21,21 +21,22 @@
         </activity>
         <activity
             android:name=".MainMenu"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+            android:theme="@style/Theme.AppCompat.DayNight" />
 
+        <activity android:name=".helpPage" />
         <activity
             android:name=".AboutAIIMS"
             android:label="About AIIMS"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+            android:theme="@style/about_aiims"/>
 
         <activity android:name=".AboutUs"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+            android:theme="@style/about_us"/>
 
 
         <activity
             android:name=".MedicalServices"
             android:label="Medical Services at AIIMS"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+            android:theme="@style/medical_services" />
 
         <activity android:name=".Malaria01"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
@@ -68,7 +69,7 @@
 
 
         <activity android:name=".Maps"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+            android:theme="@style/maps"/>
 
         <activity android:name=".Typhoid01"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
@@ -180,7 +181,8 @@
         <activity android:name=".rntcp"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
         <activity android:name=".Schemes"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+            android:theme="@style/govt"
+            android:label="Govt. Schemes"
             />
     </application>
 
