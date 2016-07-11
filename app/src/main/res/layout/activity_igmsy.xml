@@ -22,6 +22,7 @@
         android:textStyle="bold"
         android:fontFamily="sans-serif-condensed"
         android:id="@+id/IGMSY_title"
+        android:layout_marginTop="54dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true" />
 
@@ -116,7 +117,39 @@
         android:id="@+id/mcp"
         android:layout_below="@+id/textView58" />
 
+            <Button
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:text="next scheme"
+                android:id="@+id/button111"
+                android:background="#0954be"
+                android:textColor="#ffffff"
+                android:onClick="igmsyn"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/button114" />
 
+
+    <Button
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:text="previous scheme"
+        android:id="@+id/button110"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="#eb6003"
+        android:textColor="#ffffff"
+        android:onClick="igmsyp" />
+
+            <Button
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:text="home"
+                android:id="@+id/button114"
+                android:layout_alignBottom="@+id/button111"
+                android:layout_toEndOf="@+id/button110"
+                android:background="#f5d40c"
+                android:textColor="#000000"
+                android:onClick="igmsyh" />
         </RelativeLayout>
     </ScrollView>
 

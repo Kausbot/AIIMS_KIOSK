@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import ps1.bits_pilani.goa.aiims_kiosk.Schemes;
 import ps1.bits_pilani.goa.aiims_kiosk.jananiSuraksha;
 import ps1.bits_pilani.goa.aiims_kiosk.pmsjby;
 import ps1.bits_pilani.goa.aiims_kiosk.R;
@@ -22,6 +23,10 @@ public class MMS extends AppCompatActivity {
     }
     public void mmsn (View view) {
         Intent i = new Intent(this, PMJJBY.class);
+        startActivity(i);
+    }
+    public void mmsh (View view) {
+        Intent i = new Intent(this, Schemes.class);
         startActivity(i);
     }
 }

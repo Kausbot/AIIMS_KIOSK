@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import ps1.bits_pilani.goa.aiims_kiosk.Schemes;
 import ps1.bits_pilani.goa.aiims_kiosk.pmsjby;
 import ps1.bits_pilani.goa.aiims_kiosk.R;
 
@@ -21,6 +22,10 @@ public class NFSM extends AppCompatActivity {
     }
     public void nfsmn (View view) {
         Intent i = new Intent(this,IGMSY.class);
+        startActivity(i);
+    }
+    public void nfsmh (View view) {
+        Intent i = new Intent(this,Schemes.class);
         startActivity(i);
     }
 }

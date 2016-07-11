@@ -57,20 +57,11 @@
         android:layout_below="@+id/textView"
         android:layout_alignParentStart="true" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/medical_services"
-        android:id="@+id/button4"
-        android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@+id/gridLayout" />
-
-    <Button
+        <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/medical_technology"
         android:id="@+id/button5"
-        android:layout_alignTop="@+id/button4"
         android:layout_alignParentEnd="true" />
 
 </RelativeLayout>

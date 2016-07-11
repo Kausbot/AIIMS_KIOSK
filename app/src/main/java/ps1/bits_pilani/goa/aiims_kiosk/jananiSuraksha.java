@@ -23,4 +23,8 @@ public class jananiSuraksha extends AppCompatActivity {
         Intent i = new Intent(this,MMS.class);
         startActivity(i);
     }
+    public void jsyh (View view) {
+        Intent i = new Intent(this,Schemes.class);
+        startActivity(i);
+    }
 }

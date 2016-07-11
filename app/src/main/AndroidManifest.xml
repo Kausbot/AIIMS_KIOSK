@@ -189,6 +189,12 @@
             android:theme="@style/govt"
             android:label="Govt. Schemes"
             />
+        <activity android:name=".OutReachFamilyCare"></activity>
+        <activity android:name=".AcuteCar">
+        </activity>
+        <activity android:name=".LongTermChronicCare">
+        </activity>
+        <activity android:name=".SurgicalOperations"></activity>
     </application>
 
 </manifest>
