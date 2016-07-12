@@ -19,6 +19,18 @@ import android.widget.Toast;
  */
 public class Maps extends AppCompatActivity{
 
+    @Override
+    protected void onPause() {
+        super.onPause();
+        this.finish();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        this.finish();
+    }
+
     private Toolbar toolbar;
 
     @Override

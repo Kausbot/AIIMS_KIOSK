@@ -11,6 +11,17 @@ import ps1.bits_pilani.goa.aiims_kiosk.Govt_Schemes.PMJJBY;
 public class pmsjby extends AppCompatActivity {
 
     @Override
+    protected void onPause() {
+        super.onPause();
+        this.finish();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        this.finish();
+    }
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pmsjby);

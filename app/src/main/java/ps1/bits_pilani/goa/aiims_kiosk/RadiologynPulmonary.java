@@ -6,6 +6,18 @@ import android.os.Bundle;
 public class RadiologynPulmonary extends AppCompatActivity {
 
     @Override
+    protected void onPause() {
+        super.onPause();
+        this.finish();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        this.finish();
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_radiologyn_pulmonary);

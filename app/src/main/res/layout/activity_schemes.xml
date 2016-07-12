@@ -390,7 +390,7 @@
                         android:layout_marginLeft="5dp"
                         android:fontFamily="sans-serif-condensed"
                         android:layout_marginBottom="10dp"
-                        android:onClick=""
+                        android:onClick="NFSM"
                         android:layout_alignParentStart="true"
                         android:layout_centerHorizontal="true" />
                 </TableRow>
