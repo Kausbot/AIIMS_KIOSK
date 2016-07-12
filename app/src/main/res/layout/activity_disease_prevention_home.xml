@@ -35,7 +35,8 @@
         android:onClick="anemia"
         android:layout_above="@+id/button72"
         android:layout_alignEnd="@+id/imageView30"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textColor="#000000" />
 
     <Button
         android:layout_width="wrap_content"
@@ -45,7 +46,8 @@
         android:onClick="commonCold"
         android:layout_below="@+id/button89"
         android:layout_alignEnd="@+id/button87"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textColor="#000000" />
 
     <Button
         android:layout_width="wrap_content"
@@ -55,7 +57,8 @@
         android:onClick="hiv"
         android:layout_below="@+id/button91"
         android:layout_alignParentStart="true"
-        android:layout_alignEnd="@+id/button88" />
+        android:layout_alignEnd="@+id/button88"
+        android:textColor="#000000" />
 
     <Button
         android:layout_width="wrap_content"
@@ -65,7 +68,8 @@
         android:onClick="typhoid"
         android:layout_centerVertical="true"
         android:layout_alignEnd="@+id/button91"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textColor="#000000" />
 
     <Button
         android:layout_width="wrap_content"
@@ -75,7 +79,8 @@
         android:onClick="malaria"
         android:layout_below="@+id/button90"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textColor="#000000" />
 
     <Button
         android:layout_width="wrap_content"
@@ -84,6 +89,7 @@
         android:id="@+id/button72"
         android:onClick="mainmenu"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000" />
 </RelativeLayout>
 </RelativeLayout>
