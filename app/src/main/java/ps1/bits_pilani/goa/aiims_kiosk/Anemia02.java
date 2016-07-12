@@ -6,6 +6,17 @@ import android.os.Bundle;
 import android.view.View;
 
 public class Anemia02 extends AppCompatActivity {
+    @Override
+    protected void onPause() {
+        super.onPause();
+        this.finish();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        this.finish();
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
