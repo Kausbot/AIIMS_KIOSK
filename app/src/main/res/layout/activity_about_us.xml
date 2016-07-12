@@ -32,7 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Prepared in partial fulfillment of PS I project Summer 2016"
+        android:text="Prepared in partial fulfillment of the requirements for PS I - Summer 2016"
         android:id="@+id/textView"
         android:layout_below="@+id/imageView"
         android:layout_alignParentStart="true"

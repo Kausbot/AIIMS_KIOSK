@@ -14,20 +14,19 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView27"
         android:src="@drawable/anemia03"
-        android:layout_marginBottom="234dp"
-        android:layout_alignParentBottom="true"
+        android:layout_above="@+id/textView45"
         android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Ingest iron supplements. To ensure that you&apos;re getting sufficient iron, consider taking over the counter iron supplements. You can take this as a single supplement or part of a multivitamin, which may lessen your risk for developing anemia.[9] You need anywhere from 8-18 mg of iron per day to keep your iron at normal levels. Consider taking slightly more if you are anemic or concerned about developing it.[10] Women require more (up to 15-18 mg), because of menstruation. Pregnant women need at least 27 mg and lactating women 9-10 mg. "
+        android:text="Ingest iron supplements. To ensure that you&apos;re getting sufficient iron, consider taking over the counter iron supplements. You can take this as a single supplement or part of a multivitamin, which may lessen your risk for developing anemia. You need anywhere from 8-18 mg of iron per day to keep your iron at normal levels. Consider taking slightly more if you are anemic or concerned about developing it. Women require more (up to 15-18 mg), because of menstruation. Pregnant women need at least 27 mg and lactating women 9-10 mg. "
         android:id="@+id/textView45"
-        android:layout_marginBottom="48dp"
-        android:layout_alignParentBottom="true"
+        android:textColor="#000000"
+        android:layout_above="@+id/button78"
         android:layout_alignParentStart="true"
-        android:textColor="#000000" />
+        android:layout_marginBottom="34dp" />
 
     <Button
         android:layout_width="wrap_content"

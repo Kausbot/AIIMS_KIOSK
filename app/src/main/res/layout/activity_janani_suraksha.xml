@@ -8,8 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ps1.bits_pilani.goa.aiims_kiosk.jananiSuraksha"
-    android:background="#151515">
+    tools:context="ps1.bits_pilani.goa.aiims_kiosk.jananiSuraksha">
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -55,7 +54,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Janani Suraksha Yojna"
         android:id="@+id/textView74"
-        android:textColor="#ffffff"
+        android:textColor="#000000"
         android:layout_below="@+id/button56"
         android:layout_centerHorizontal="true" />
 
@@ -65,7 +64,7 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Janani Suraksha Yojana (JSY) is an Indian Government scheme proposed by the Government of India. It was launched on 12 April 2005 by the Prime Minister of India.It aim to decrease the neo-natal and maternal deaths happening in the country by promoting institutional delivery of babies. This is a safe motherhood intervention under the National Rural Health Mission (NRHM).It is a 100% centrally sponsored scheme it integrates cash assistance with delivery and post-delivery care. The success of the scheme would be determined by the increase in institutional delivery among the poor families."
         android:id="@+id/textView75"
-        android:textColor="#ffffff"
+        android:textColor="#000000"
         android:layout_below="@+id/imageView75"
         android:layout_alignParentStart="true" />
 
@@ -88,7 +87,7 @@
         android:layout_below="@+id/textView76"
         android:layout_toStartOf="@+id/textView74"
         android:layout_alignEnd="@+id/button71"
-        android:textColor="#ffffff" />
+        android:textColor="#000000" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -98,7 +97,7 @@
         android:id="@+id/textView78"
         android:layout_below="@+id/textView77"
         android:layout_alignParentStart="true"
-        android:textColor="#fded0b" />
+        android:textColor="#fa0606" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -114,7 +113,7 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Urban Areas"
         android:id="@+id/textView79"
-        android:textColor="#fded0b"
+        android:textColor="#fa0606"
         android:layout_below="@+id/imageView76"
         android:layout_alignParentStart="true" />
 

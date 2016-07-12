@@ -28,7 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Anemia is a medical condition in which healthy red blood cells dip below normal limits. Anemia prevents your body from carrying adequate oxygen to your tissues and can make you feel weak and tired.[1] There are many different kinds of anemia, including iron-deficiency anemia or sickle cell anemia that require different types of treatment.[2] Anyone can get anemia, though women, strict vegans, people with poor diets, and people with chronic diseases are at a higher risk.[3] Depending on the type of anemia, you can prevent and may even be able to cure anemia through diet or by taking supplements."
+        android:text="Anemia is a medical condition in which healthy red blood cells dip below normal limits. Anemia prevents your body from carrying adequate oxygen to your tissues and can make you feel weak and tired.There are many different kinds of anemia, including iron-deficiency anemia or sickle cell anemia that require different types of treatment. Anyone can get anemia, though women, strict vegans, people with poor diets, and people with chronic diseases are at a higher risk.Depending on the type of anemia, you can prevent and may even be able to cure anemia through diet or by taking supplements."
         android:id="@+id/textView43"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"

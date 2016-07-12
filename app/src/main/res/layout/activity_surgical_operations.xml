@@ -13,16 +13,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="FACILITY AVAILABILITY"
+        android:text="FACILITIES AVAILIBLE"
         android:id="@+id/textView49"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         android:textColor="#0408f9" />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView43"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/aiimslogo"
+        android:alpha=".3" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/surgical_operations_under_local_regional_anaesthesia_biopsies_limited_excisional_surgery_carpel_tunnel_syndrome_nsv_no_scalpel_vasectomy_centre_opened_total_no_of_surgical_operations_performed_in_the_last_1_year_gen_surg_195_speciality_surg_110_gyne_52"
         android:id="@+id/textView50"
         android:layout_below="@+id/textView49"

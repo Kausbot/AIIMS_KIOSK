@@ -8,8 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ps1.bits_pilani.goa.aiims_kiosk.Govt_Schemes.MMS"
-    android:background="#151515">
+    tools:context="ps1.bits_pilani.goa.aiims_kiosk.Govt_Schemes.MMS">
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -59,7 +58,7 @@
         android:id="@+id/textView86"
         android:layout_below="@+id/imageView80"
         android:layout_alignParentStart="true"
-        android:textColor="#ffffff" />
+        android:textColor="#000000" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -79,7 +78,7 @@
         android:id="@+id/textView88"
         android:layout_below="@+id/textView87"
         android:layout_alignParentStart="true"
-        android:textColor="#ffffff" />
+        android:textColor="#000000" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -98,7 +97,7 @@
         android:layout_below="@+id/textView88"
         android:layout_alignParentStart="true"
         android:layout_marginTop="148dp"
-        android:textColor="#ffffff" />
+        android:textColor="#000000" />
 
             <Button
                 android:layout_width="110dp"
@@ -116,7 +115,7 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Mid Day Meal Scheme"
                 android:id="@+id/textView102"
-                android:textColor="#ffffff"
+                android:textColor="#000000"
                 android:layout_below="@+id/button106"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="29dp" />

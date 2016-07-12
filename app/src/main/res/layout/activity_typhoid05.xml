@@ -14,8 +14,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView12"
         android:src="@drawable/typhoid05"
-        android:layout_marginBottom="171dp"
-        android:layout_alignParentBottom="true"
+        android:layout_above="@+id/textView31"
         android:layout_alignParentStart="true" />
 
     <TextView
@@ -24,10 +23,10 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Remember a helpful mantra. As designed by the Centers for Disease Control and Prevention, learn the phrase: &quot;Boil it, cook it, peel it, or forget it.&quot; If ever you have doubts about whether to eat something, think of this mantra. Remember it&apos;s always better to be safe than sorry!"
         android:id="@+id/textView31"
-        android:layout_marginBottom="77dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#000000" />
+        android:layout_marginBottom="86dp"
+        android:textColor="#000000"
+        android:layout_above="@+id/button36"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"

@@ -23,10 +23,9 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text=" Always, always, always use protection. Only engage in unprotected sex if you are in a mutually monogamous relationship in which both you and your partner are uninfected by HIV or any other STD. This is the most important part of preventing HIV. Protected sex will go the furthest to protect you and your partner if one of you is at risk or has contracted an HIV infection. Of course, it&apos;s easy to say &quot;just this one time&quot; to skipping protection but all it takes is one time"
         android:id="@+id/textView36"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="40dp"
-        android:textColor="#000000" />
+        android:textColor="#000000"
+        android:layout_above="@+id/button51"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"

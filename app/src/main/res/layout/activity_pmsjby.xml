@@ -8,8 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ps1.bits_pilani.goa.aiims_kiosk.pmsjby"
-    android:background="#151515">
+    tools:context="ps1.bits_pilani.goa.aiims_kiosk.pmsjby">
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -49,7 +48,8 @@
         android:id="@+id/imageView74"
         android:src="@drawable/surakshabimayojna"
         android:layout_below="@+id/button38"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:background="#EEEEEE" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -59,7 +59,7 @@
         android:id="@+id/textView70"
         android:layout_below="@+id/imageView74"
         android:layout_alignParentStart="true"
-        android:textColor="#ffffff" />
+        android:textColor="#000000" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -79,7 +79,7 @@
         android:id="@+id/textView72"
         android:layout_below="@+id/textView71"
         android:layout_alignParentStart="true"
-        android:textColor="#ffffff" />
+        android:textColor="#000000" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -89,7 +89,7 @@
         android:id="@+id/textView73"
         android:layout_below="@+id/textView72"
         android:layout_alignParentStart="true"
-        android:textColor="#ffffff" />
+        android:textColor="#000000" />
 
             <Button
                 android:layout_width="110dp"
