@@ -193,12 +193,18 @@
             android:theme="@style/govt"
             android:label="Govt. Schemes"
             />
-        <activity             android:screenOrientation="portrait" android:name=".OutReachFamilyCare"></activity>
+        <activity             android:screenOrientation="portrait"
+            android:name=".OutReachFamilyCare">
+
+        </activity>
         <activity             android:screenOrientation="portrait" android:name=".AcuteCar">
         </activity>
         <activity             android:screenOrientation="portrait" android:name=".LongTermChronicCare">
         </activity>
-        <activity             android:screenOrientation="portrait" android:name=".SurgicalOperations"></activity>
+
+        <activity             android:screenOrientation="portrait" android:name=".SurgicalOperations">
+
+        </activity>
     </application>
 
 </manifest>
