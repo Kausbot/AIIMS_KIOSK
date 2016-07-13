@@ -88,4 +88,9 @@
         <item name="android:textColorPrimary">@color/background_material_light</item>
     </style>
 
+    <style name="Good_text">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textColor">@color/main_text</item>
+    </style>
+
 </resources>

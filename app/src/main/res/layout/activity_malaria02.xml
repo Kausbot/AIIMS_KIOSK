@@ -21,13 +21,14 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        style="@style/Good_text"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text=" Choose your accommodations carefully. When planning your trip, try to choose places to stay that have fewer mosquitoes. If possible, stay in screened quarters or quarters with air conditioning. In general, the best areas to stay in are cooler areas away from any stagnant water. Stagnant water serves as a breeding ground for mosquitoes.[9] Stagnant water sources such as lakes or non-running streams are especially prone to mosquitoes."
+        android:text="Choose your accommodations carefully. When planning your trip, try to choose places to stay that have fewer mosquitoes. If possible, stay in screened quarters or quarters with air conditioning. In general, the best areas to stay in are cooler areas away from any stagnant water. Stagnant water serves as a breeding ground for mosquitoes.[9] Stagnant water sources such as lakes or non-running streams are especially prone to mosquitoes."
         android:id="@+id/textView12"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="58dp"
-        android:textColor="#000000" />
+         />
 
     <Button
         android:layout_width="wrap_content"

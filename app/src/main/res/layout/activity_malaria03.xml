@@ -22,12 +22,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text=" Use a mosquito net. Mosquito nets are lightweight, tightly-woven nets that keep mosquitoes out of your tent or bed at night.Set the net up over your sleeping area each night before you go to sleep. You can also use them to cover any open windows or doors."
+        android:text="Use a mosquito net. Mosquito nets are lightweight, tightly-woven nets that keep mosquitoes out of your tent or bed at night.Set the net up over your sleeping area each night before you go to sleep. You can also use them to cover any open windows or doors."
         android:id="@+id/textView13"
         android:layout_marginBottom="117dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:textColor="#000000" />
+        style="@style/Good_text" />
 
     <Button
         android:layout_width="wrap_content"

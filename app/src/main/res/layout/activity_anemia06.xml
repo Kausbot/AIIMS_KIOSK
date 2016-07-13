@@ -22,12 +22,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text=" Consume foods containing vitamin B12. Consume whole foods that contain Vitamin B12, which is found naturally in animal and soy products. Making sure you get enough Vitamin B12 may not only help you prevent anemia, but can also help your body absorb iron more efficiently. Consider incorporating some or all of the following foods into your diet:[21] Fish: try salmon, trout, and tuna Shellfish: try clams and oysters Eggs Dairy products: try cheese and yogurt Fortified cereals Soy products: try soy milk, edamame, and tofu"
+        android:text="Consume foods containing vitamin B12. Consume whole foods that contain Vitamin B12, which is found naturally in animal and soy products. Making sure you get enough Vitamin B12 may not only help you prevent anemia, but can also help your body absorb iron more efficiently. Consider incorporating some or all of the following foods into your diet, Fish: try salmon, trout, and tuna Shellfish: try clams and oysters Eggs Dairy products: try cheese and yogurt Fortified cereals Soy products: try soy milk, edamame, and tofu"
         android:id="@+id/textView47"
         android:layout_marginBottom="51dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:textColor="#000000" />
+        style="@style/Good_text" />
 
     <Button
         android:layout_width="wrap_content"

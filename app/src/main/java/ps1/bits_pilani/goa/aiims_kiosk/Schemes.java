@@ -72,7 +72,7 @@ public class Schemes extends AppCompatActivity {
     }
 
     public void JSY(View view) {
-        Intent jsy = new Intent(this, JSY.class);
+        Intent jsy = new Intent(this, jananiSuraksha.class);
 
         startActivity(jsy);
 

@@ -24,7 +24,7 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Certain medications can make people more prone to developing anemia. If you&apos;re on medications that may put you at risk, ask your doctor whether there&apos;s an alternative medication that will do the job without causing you to become anemic. Cephalosporins Dapsone Levodopa Levofloxacin Methyldopa Nitrofurantoin Nonsteroidal anti-inflammatory drugs (NSAIDs)"
         android:id="@+id/textView51"
-        android:textColor="#000000"
+        style="@style/Good_text"
         android:layout_above="@+id/button92"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="51dp" />
