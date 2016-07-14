@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text=" Be careful with what you drink. Make sure to drink water from clean, untainted sources. Follow these guidelines:[10] When you drink water, drink it from a sealed bottle or bring it to a boil for one minute before drinking it. In general, carbonated, bottled water is safer than uncarbonated water. Even ice can be contaminated, so either do without it, or make sure the water used to make the ice was either from a bottle or boiled. Try to avoid anything made with water, like popsicles or flavored ices, which may have been made with contaminated water."
+        android:text=" Be careful with what you drink. Make sure to drink water from clean, untainted sources. Follow these guidelines: When you drink water, drink it from a sealed bottle or bring it to a boil for one minute before drinking it. In general, carbonated, bottled water is safer than uncarbonated water. Even ice can be contaminated, so either do without it, or make sure the water used to make the ice was either from a bottle or boiled. Try to avoid anything made with water, like popsicles or flavored ices, which may have been made with contaminated water."
         android:id="@+id/textView29"
         style="@style/Good_text"
         android:layout_above="@+id/button30"
